@@ -532,14 +532,14 @@
 		""
 		"Twilight Forest opens. Enchanting unlocks. Iron and gold gear is craftable."
 	]
-	quest.8B3F18C42E0A7B05.title: "Welcome to Diamond Tier"
-	quest.8B3F18C42E0A7B05.quest_desc: [
+	quest.0EA0B5FAB6891A6C.title: "Welcome to Diamond Tier"
+	quest.0EA0B5FAB6891A6C.quest_desc: [
 		"Diamond Tier reached."
 		""
 		"Diamond gear is craftable. New bookshelves come online and your enchanting power steps up."
 	]
-	quest.9C5D27B9E408F12A.title: "Welcome to Netherite Tier"
-	quest.9C5D27B9E408F12A.quest_desc: [
+	quest.5E257FBB76904CA8.title: "Welcome to Netherite Tier"
+	quest.5E257FBB76904CA8.quest_desc: [
 		"Netherite Tier reached."
 		""
 		"Netherite gear is craftable. The Undergarden dimension is now accessible. Vanilla and Quark bookshelves work, plus the first Apothic shelves."

@@ -147,11 +147,16 @@
 		{
 			dependencies: ["75E8B2DCB6F6552A"]
 			hide_until_deps_complete: true
-			icon: { id: "allthemodium:allthemodium_ingot" }
+			icon: {
+				id: "allthemodium:allthemodium_ingot"
+			}
 			id: "6A2E18D79C5F310B"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "6A2E18D79C5F310C", type: "checkmark" }]
+			tasks: [{
+				id: "6A2E18D79C5F310C"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

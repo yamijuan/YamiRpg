@@ -203,11 +203,16 @@
 		{
 			dependencies: ["37F5D25303C214C4"]
 			hide_until_deps_complete: true
-			icon: { id: "allthemodium:unobtainium_ingot" }
+			icon: {
+				id: "allthemodium:unobtainium_ingot"
+			}
 			id: "2D8B47A3E91F65C7"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "2D8B47A3E91F65C8", type: "checkmark" }]
+			tasks: [{
+				id: "2D8B47A3E91F65C8"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

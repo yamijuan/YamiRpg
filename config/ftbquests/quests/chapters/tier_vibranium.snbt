@@ -176,11 +176,16 @@
 		{
 			dependencies: ["122F65B3E376D69E"]
 			hide_until_deps_complete: true
-			icon: { id: "allthemodium:vibranium_ingot" }
+			icon: {
+				id: "allthemodium:vibranium_ingot"
+			}
 			id: "4F19A7E2B6CD8403"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "4F19A7E2B6CD8404", type: "checkmark" }]
+			tasks: [{
+				id: "4F19A7E2B6CD8404"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

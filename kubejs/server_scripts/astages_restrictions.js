@@ -132,13 +132,11 @@
 		"bosses_of_mass_destruction:gauntlet_arena",
 		"block_factorys_bosses:sandworm_nest"
 	]);
-	gateTags("besttechrpg/iron/mat", "tier_iron", [
-		"c:ingots/iron", "c:ingots/gold", "c:ingots/silver", "c:ingots/nickel", "c:ingots/aluminum",
-		"c:raw_materials/iron", "c:raw_materials/gold", "c:raw_materials/silver", "c:raw_materials/nickel", "c:raw_materials/aluminum",
-		"c:storage_blocks/iron", "c:storage_blocks/gold", "c:storage_blocks/silver", "c:storage_blocks/nickel", "c:storage_blocks/aluminum",
-		"c:storage_blocks/raw_iron", "c:storage_blocks/raw_gold",
-		"c:nuggets/iron", "c:nuggets/gold"
-	]);
+	// Iron-tier materials (ingots / raw / blocks / nuggets) are NOT tag-gated. Copper
+	// players can collect iron loot from ungated dungeons and stockpile it. Crafting it
+	// into iron tools/armor is still blocked by the gateItems call below until tier_iron.
+	// Mining iron ore directly is still blocked by the gateOres replacement (ore appears
+	// as stone for copper players).
 	gateDimension("besttechrpg/iron/tf", "tier_iron", "twilightforest:twilight_forest");
 	gateOres("besttechrpg/iron", "tier_iron", [
 		["minecraft:iron_ore",          "minecraft:stone"],
@@ -378,6 +376,12 @@
 		"allthemodium:allthemodium_axe", "allthemodium:allthemodium_shovel", "allthemodium:allthemodium_hoe",
 		// ATM ancient_bookshelf: only Ancient wood from The Other dim, naturally gated here
 		"allthemodium:ancient_bookshelf",
+		// Cataclysm boss-drop materials (ingots, blocks, nuggets) - all gated until ATM tier
+		"cataclysm:ancient_metal_ingot", "cataclysm:ancient_metal_nugget", "cataclysm:ancient_metal_block",
+		"cataclysm:ignitium", "cataclysm:ignitium_ingot", "cataclysm:ignitium_block",
+		"cataclysm:cursium_ingot", "cataclysm:cursium_block",
+		"cataclysm:black_steel_ingot", "cataclysm:black_steel_nugget", "cataclysm:black_steel_block",
+		"cataclysm:witherite_ingot", "cataclysm:witherite_block",
 		// Apothic upgraded hellshelf/seashelf variants (maxEterna 60-65). Base hellshelf+seashelf moved to netherite
 		"apothic_enchanting:blazing_hellshelf",
 		"apothic_enchanting:glowing_hellshelf", "apothic_enchanting:infused_hellshelf",

@@ -272,162 +272,215 @@
 			y: 11.0d
 		}
 		{
-			icon: { id: "botanypots:terracotta_botany_pot" }
+			icon: {
+				id: "botanypots:terracotta_botany_pot"
+			}
 			id: "7B070110B0FA1100"
 			rewards: [{
 				count: 2
 				id: "7B070110B0FA1102"
-				item: { count: 1, id: "minecraft:cooked_beef" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7B070110B0FA1101"
-				type: "item"
 				item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: -7.0d
 		}
 		{
-			icon: { id: "bountiful:bountyboard" }
+			icon: {
+				id: "bountiful:bountyboard"
+			}
 			id: "7B070210B0FA1200"
 			rewards: [{
 				count: 2
 				id: "7B070210B0FA1202"
-				item: { count: 1, id: "minecraft:cooked_porkchop" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7B070210B0FA1201"
-				type: "structure"
 				structure: "#minecraft:village"
+				type: "structure"
 			}]
 			x: -2.0d
 			y: -7.0d
 		}
 		{
-			icon: { id: "farmersdelight:cooking_pot" }
+			icon: {
+				id: "farmersdelight:iron_knife"
+			}
 			id: "7B070310B0FA1300"
 			rewards: [{
 				count: 2
 				id: "7B070310B0FA1302"
-				item: { count: 1, id: "minecraft:bread" }
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7B070310B0FA1301"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
 				type: "item"
-				item: { count: 1, tag: "c:tools/knife" }
 			}]
 			x: 0.0d
 			y: -7.0d
 		}
 		{
-			icon: { id: "ftbquests:book" }
+			icon: {
+				id: "ftbquests:book"
+			}
 			id: "7B070410B0FA1400"
 			rewards: [{
 				count: 2
 				id: "7B070410B0FA1402"
-				item: { count: 1, id: "minecraft:cooked_chicken" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_chicken"
+				}
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{ id: "7B070410B0FA1401", type: "checkmark" }]
+			tasks: [{
+				id: "7B070410B0FA1401"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -7.0d
 		}
 		{
-			icon: { id: "lootr:trophy" }
+			icon: {
+				id: "lootr:trophy"
+			}
 			id: "7B070510B0FA1500"
 			rewards: [{
 				count: 2
 				id: "7B070510B0FA1502"
-				item: { count: 1, id: "minecraft:baked_potato" }
+				item: {
+					count: 1
+					id: "minecraft:baked_potato"
+				}
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{ id: "7B070510B0FA1501", type: "checkmark" }]
+			tasks: [{
+				id: "7B070510B0FA1501"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -7.0d
 		}
 		{
-			icon: { id: "naturescompass:naturescompass" }
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
 			id: "7B070610B0FA1600"
 			rewards: [{
 				count: 2
 				id: "7B070610B0FA1602"
-				item: { count: 1, id: "minecraft:carrot" }
+				item: {
+					count: 1
+					id: "minecraft:carrot"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7B070610B0FA1601"
-				type: "item"
 				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
 			}]
 			x: -3.0d
 			y: -5.5d
 		}
 		{
-			icon: { id: "sophisticatedbackpacks:backpack" }
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
 			id: "7B070710B0FA1700"
 			rewards: [{
 				count: 5
 				id: "7B070710B0FA1702"
-				item: { count: 1, id: "minecraft:leather" }
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7B070710B0FA1701"
-				type: "item"
-				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -5.5d
 		}
 		{
-			icon: { id: "solcarrot:food_book" }
+			icon: {
+				id: "solcarrot:food_book"
+			}
 			id: "7B070810B0FA1800"
 			rewards: [{
 				count: 2
 				id: "7B070810B0FA1802"
-				item: { count: 1, id: "minecraft:cooked_mutton" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_mutton"
+				}
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{ id: "7B070810B0FA1801", type: "checkmark" }]
+			tasks: [{
+				id: "7B070810B0FA1801"
+				type: "checkmark"
+			}]
 			x: 1.0d
 			y: -5.5d
 		}
 		{
-			icon: { id: "hangglider:hang_glider" }
+			icon: {
+				id: "hangglider:hang_glider"
+			}
 			id: "7B070910B0FA1900"
 			rewards: [{
 				count: 2
 				id: "7B070910B0FA1902"
-				item: { count: 1, id: "minecraft:sweet_berries" }
+				item: {
+					count: 1
+					id: "minecraft:sweet_berries"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [
 				{
 					id: "7B070910B0FA1901"
-					type: "item"
 					item: { count: 1, id: "usefulslime:slime_boots" }
+					type: "item"
 				}
 				{
 					id: "7B070910B0FA1903"
-					type: "item"
 					item: { count: 1, id: "usefulslime:slime_sling" }
+					type: "item"
 				}
 				{
 					id: "7B070910B0FA1904"
-					type: "item"
 					item: { count: 1, id: "hangglider:hang_glider" }
+					type: "item"
 				}
 			]
 			x: 3.0d
@@ -436,17 +489,25 @@
 		{
 			dependencies: ["59DBC67A53B59081"]
 			hide_until_deps_complete: true
-			icon: { id: "overworld_netherite_ore:ancient_debris_ore" }
+			icon: {
+				id: "overworld_netherite_ore:ancient_debris_ore"
+			}
 			id: "7B071010B0FA1A00"
 			rewards: [{
 				count: 2
 				id: "7B071010B0FA1A02"
-				item: { count: 1, id: "minecraft:cooked_beef" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			tasks: [{ id: "7B071010B0FA1A01", type: "checkmark" }]
+			tasks: [{
+				id: "7B071010B0FA1A01"
+				type: "checkmark"
+			}]
 			x: 3.0d
 			y: 5.0d
 		}

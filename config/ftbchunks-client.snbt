@@ -139,59 +139,59 @@
 		entity_heads: true
 		entity_icon: {
 			"minecraft:glow_squid": true
-			"quark:toretoise": true
-			"quark:forgotten": true
-			"minecraft:zombie": true
-			"mowziesmobs:grottol": true
-			"minecraft:sheep": true
-			"minecraft:enderman": true
-			"minecraft:vex": true
-			"minecraft:horse": true
-			"born_in_chaos_v1:zombie_clown": true
-			"minecraft:bat": true
-			"born_in_chaos_v1:restless_spirit": true
-			"quark:stoneling": true
-			"born_in_chaos_v1:corpse_fish": true
-			"minecraft:spider": true
-			"minecraft:chicken": true
-			"born_in_chaos_v1:baby_spider": true
-			"minecraft:villager": true
-			"born_in_chaos_v1:siamese_skeletons": true
-			"minecraft:cow": true
-			"aquaculture:synodontis": false
-			"aquaculture:smallmouth_bass": false
-			"born_in_chaos_v1:corpse_fly": true
-			"minecraft:tropical_fish": false
-			"born_in_chaos_v1:dread_hound": true
-			"born_in_chaos_v1:zombie_bruiser": true
-			"born_in_chaos_v1:zombie_lumberjack": true
-			"aquaculture:boulti": false
-			"minecraft:pillager": true
-			"born_in_chaos_v1:spiritof_chaos": true
-			"born_in_chaos_v1:door_knight": true
-			"minecraft:bee": true
-			"minecraft:rabbit": true
-			"minecraft:wolf": true
-			"aquaculture:gar": false
-			"minecraft:pufferfish": false
-			"aquaculture:minnow": false
-			"born_in_chaos_v1:supreme_bonescaller": true
-			"aquaculture:bluegill": false
-			"born_in_chaos_v1:decrepit_skeleton": true
-			"born_in_chaos_v1:skeleton_demoman": true
-			"aquaculture:jellyfish": false
-			"minecraft:husk": true
-			"born_in_chaos_v1:thornshell_crab": true
 			"minecraft:skeleton": true
-			"born_in_chaos_v1:decaying_zombie": true
+			"minecraft:tropical_fish": false
+			"minecraft:bee": true
+			"born_in_chaos_v1:baby_skeleton": true
+			"born_in_chaos_v1:corpse_fly": true
+			"minecraft:pufferfish": false
+			"born_in_chaos_v1:zombie_clown": true
+			"born_in_chaos_v1:door_knight": true
+			"born_in_chaos_v1:thornshell_crab": true
+			"born_in_chaos_v1:zombie_bruiser": true
+			"born_in_chaos_v1:phantom_creeper": true
+			"minecraft:wolf": true
+			"minecraft:drowned": true
+			"minecraft:chicken": true
+			"born_in_chaos_v1:corpse_fish": true
+			"born_in_chaos_v1:baby_spider": true
+			"minecraft:husk": true
+			"born_in_chaos_v1:restless_spirit": true
+			"born_in_chaos_v1:dread_hound": true
+			"aquaculture:gar": false
+			"quark:toretoise": true
+			"aquaculture:minnow": false
+			"born_in_chaos_v1:spirit_guide": true
+			"aquaculture:smallmouth_bass": false
+			"aquaculture:boulti": false
+			"minecraft:sheep": true
+			"born_in_chaos_v1:zombie_lumberjack": true
+			"born_in_chaos_v1:supreme_bonescaller": true
 			"aquaculture:perch": false
 			"minecraft:wandering_trader": true
-			"born_in_chaos_v1:spirit_guide": true
-			"minecraft:creeper": true
-			"born_in_chaos_v1:phantom_creeper": true
-			"minecraft:drowned": true
+			"minecraft:bat": true
+			"minecraft:cow": true
+			"quark:stoneling": true
+			"born_in_chaos_v1:spiritof_chaos": true
 			"born_in_chaos_v1:bonescaller": true
-			"born_in_chaos_v1:baby_skeleton": true
+			"minecraft:zombie": true
+			"quark:forgotten": true
+			"minecraft:spider": true
+			"minecraft:enderman": true
+			"minecraft:vex": true
+			"aquaculture:synodontis": false
+			"mowziesmobs:grottol": true
+			"born_in_chaos_v1:skeleton_demoman": true
+			"born_in_chaos_v1:siamese_skeletons": true
+			"born_in_chaos_v1:decrepit_skeleton": true
+			"minecraft:pillager": true
+			"aquaculture:jellyfish": false
+			"born_in_chaos_v1:decaying_zombie": true
+			"minecraft:horse": true
+			"aquaculture:bluegill": false
+			"minecraft:rabbit": true
+			"minecraft:creeper": true
+			"minecraft:villager": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

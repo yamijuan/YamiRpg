@@ -207,11 +207,16 @@
 		{
 			dependencies: ["425E128AE0DC3808"]
 			hide_until_deps_complete: true
-			icon: { id: "minecraft:diamond" }
-			id: "8B3F18C42E0A7B05"
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "0EA0B5FAB6891A6C"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "8B3F18C42E0A7B06", type: "checkmark" }]
+			tasks: [{
+				id: "07664F02D0E1F087"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

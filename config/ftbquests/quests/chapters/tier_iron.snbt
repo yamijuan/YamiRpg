@@ -162,11 +162,16 @@
 		{
 			dependencies: ["694748855D8ACFE2"]
 			hide_until_deps_complete: true
-			icon: { id: "minecraft:iron_ingot" }
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "7E0C5D2A11B4A301"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "7E0C5D2A11B4A302", type: "checkmark" }]
+			tasks: [{
+				id: "7E0C5D2A11B4A302"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

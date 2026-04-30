@@ -177,11 +177,16 @@
 		{
 			dependencies: ["59DBC67A53B59081"]
 			hide_until_deps_complete: true
-			icon: { id: "minecraft:netherite_ingot" }
-			id: "9C5D27B9E408F12A"
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "5E257FBB76904CA8"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{ id: "9C5D27B9E408F12B", type: "checkmark" }]
+			tasks: [{
+				id: "79FDD3AFB6FCA15F"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}
