@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_allthemodium"
+	group: "1000000000000001"
+	icon: {
+		id: "allthemodium:allthemodium_ingot"
+	}
+	id: "40D49E287D14147B"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			id: "6267C5F0D71A6B97"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "5754EA57CAE25FFB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			id: "0E78F00A88B9C53B"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "3E605B3167F5E761"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			id: "0DF8B48060213CD8"
+			shape: "circle"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "74B3935CE258D8CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			id: "74071FD1B98FF360"
+			shape: "circle"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "2BB9D2C84B4E3731"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			id: "3A56F398833F5F84"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "410492A4FF94C5D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6267C5F0D71A6B97"
+				"0E78F00A88B9C53B"
+				"0DF8B48060213CD8"
+				"74071FD1B98FF360"
+				"3A56F398833F5F84"
+			]
+			hide_until_deps_complete: true
+			id: "122F65B3E376D69E"
+			rewards: [
+				{
+					command: "astages add @p tier_vibranium"
+					id: "708EE90F0B9E0FDE"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Vibranium Tier Unlocked\",\"color\":\"blue\"}"
+					exclude_from_claim_all: true
+					id: "29027D8900454069"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p subtitle {\"text\":\"AllTheModium bosses defeated\",\"color\":\"gray\"}"
+					exclude_from_claim_all: true
+					id: "29027D8900454070"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "1A021BEDB73F756E"
+					item: {
+						count: 1
+						id: "endrem:cold_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "04C31245FFCA0A01"
+					item: {
+						count: 1
+						id: "endrem:guardian_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4316EA529E9A8EFF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3DE13FE3B75C9D59"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75E8B2DCB6F6552A"]
+			hide_until_deps_complete: true
+			icon: { id: "allthemodium:allthemodium_ingot" }
+			id: "6A2E18D79C5F310B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "6A2E18D79C5F310C", type: "checkmark" }]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

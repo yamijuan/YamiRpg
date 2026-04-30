@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      { "target": { "predicate_type": "minecraft:block_match", "block": "deeperdarker:sculk_stone" }, "state": { "Name": "allthemodium:vibranium_ore" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "deeperdarker:gloomslate" }, "state": { "Name": "allthemodium:vibranium_ore" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:sculk" }, "state": { "Name": "allthemodium:vibranium_ore" } }
+    ]
+  }
+}

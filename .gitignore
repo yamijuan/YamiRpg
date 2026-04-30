@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+
+# Internal / private notes
+vibedocs/
+feedback/
+Structure.md
+Archive.zip
+.claude/
+
+# Upstream repo cloned for patching
+AStages/
+
+# CurseForge / launcher metadata
+.curseclient
+minecraftinstance.json
+
+# Per-player runtime state
+user-prefs.json
+usercache.json
+usernamecache.json
+command_history.txt
+TrashSlotSaveState.json
+
+# Xaero minimap data (player waypoints, world map tiles)
+xaero/
+XaeroWaypoints_BACKUP*/
+
+# Runtime caches and generated content
+.mixin.out/
+crash-reports/
+downloads/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+local/
+logs/
+moddata/
+moonlight-global-datapacks/
+patchouli_books/
+patchouli_data.json
+
+# Worlds
+saves/
+
+# Heavy binaries (shared manually for now)
+mods/
+shaderpacks/
+resourcepacks/

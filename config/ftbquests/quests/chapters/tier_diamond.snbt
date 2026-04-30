@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_diamond"
+	group: "1000000000000001"
+	icon: {
+		id: "minecraft:diamond"
+	}
+	id: "0C0EEE6DC401E67E"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "1DBCA9C1AF6FDF43"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4B543EACD217FB86"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "31E765506D62AFE6"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "01A62D729227D51B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "5AED29E54DCA8EAC"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "4B017A0ADB8936F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "546A74CE8D3D35A7"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "7CFB945A2198D6A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "7D3D441EE5E84C67"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "03B7198C836AE0E8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "7899C785F16A7ED7"
+			shape: "circle"
+			tasks: [{
+				entity: "iceandfire:death_worm"
+				id: "7B364754ED036A03"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "68D1285215CA239F"
+			shape: "circle"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "48715837CC4934B5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "3538680AE7F0999C"
+			shape: "circle"
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				id: "73F52A0FE2696B0A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			id: "65E06752EC603EE4"
+			shape: "circle"
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				id: "36D6846DF498B2B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1DBCA9C1AF6FDF43"
+				"31E765506D62AFE6"
+				"5AED29E54DCA8EAC"
+				"546A74CE8D3D35A7"
+				"7D3D441EE5E84C67"
+				"7899C785F16A7ED7"
+				"68D1285215CA239F"
+				"3538680AE7F0999C"
+				"65E06752EC603EE4"
+			]
+			hide_until_deps_complete: true
+			id: "59DBC67A53B59081"
+			rewards: [
+				{
+					command: "astages add @p tier_netherite"
+					id: "24767485DFEA44FA"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Netherite Tier Unlocked\",\"color\":\"dark_red\"}"
+					exclude_from_claim_all: true
+					id: "48C3F128729E551E"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p subtitle {\"text\":\"Diamond bosses defeated\",\"color\":\"gray\"}"
+					exclude_from_claim_all: true
+					id: "48C3F128729E551F"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "40B586BBA785B99F"
+					item: {
+						count: 1
+						id: "endrem:rogue_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "2AB784500ACAD6BE"
+					item: {
+						count: 1
+						id: "endrem:lost_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4825BB00EFAE00FA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "04971CD6B0E2A2ED"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["425E128AE0DC3808"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:diamond" }
+			id: "8B3F18C42E0A7B05"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "8B3F18C42E0A7B06", type: "checkmark" }]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

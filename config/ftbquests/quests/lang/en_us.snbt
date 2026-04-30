@@ -1,0 +1,582 @@
+{
+	chapter.0C0EEE6DC401E67E.title: "Diamond"
+	chapter.0E2218FC1B91F21F.title: "Unobtanium"
+	chapter.2191AFAE2DE97EED.title: "Iron"
+	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
+	chapter.251993BA5A35CB4A.title: "Netherite"
+	chapter.40D49E287D14147B.title: "AllTheModium"
+	chapter.52F2647880997CB2.title: "Copper"
+	chapter.6B50C5791569EF58.title: "Vibranium"
+	chapter.6118AD9B6C6A9AC7.title: "Tips and Tricks"
+	chapter_group.1000000000000001.title: "Progression"
+	chapter_group.2000000000000002.title: "Tips and Tricks"
+	quest.022485E9A03D6F3A.quest_desc: [
+		"Cataclysm's Ender Guardian, relocated to the Undergarden. Found in a Ruined Citadel."
+		""
+		"Health: 300, Armor: 20."
+		"Watch for gravity-pull and uppercut combos."
+	]
+	quest.022485E9A03D6F3A.title: "Slay the Ender Guardian"
+	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
+	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
+	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
+	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
+	quest.08E184FF368A8F87.quest_desc: [
+		"Place the Ultimate Pearl in the world to summon the gateway."
+		""
+		"Five sequential boss waves will spawn (one boss per prior tier), all stat-buffed to vibranium-level difficulty."
+		""
+		"Reward: 3 unobtanium ore + random boss drops."
+	]
+	quest.08E184FF368A8F87.title: "Defeat the Ultimate Gateway"
+	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
+	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
+	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
+	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
+	quest.0DF8B48060213CD8.quest_desc: ["Ice and Fire. The rarest dragon variant."]
+	quest.0DF8B48060213CD8.title: "Slay an Adult Lightning Dragon"
+	quest.0E78F00A88B9C53B.quest_desc: ["Twilight Forest's Yeti Cave boss."]
+	quest.0E78F00A88B9C53B.title: "Slay the Alpha Yeti"
+	quest.0F1977E8770B85F2.quest_desc: [
+		"You have collected all 12 ender eyes."
+		""
+		"Find the End Portal in a Stronghold, place the eyes, and face the Ender Dragon."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.0F1977E8770B85F2.title: "Endgame: All Eyes Assembled"
+	quest.0FCF69CC084F6057.quest_desc: [
+		"Cataclysm's Burning Arena boss. Damage scales with your max HP."
+		""
+		"At endgame gear levels, his swing attacks become brutal."
+	]
+	quest.0FCF69CC084F6057.title: "Slay Ignis"
+	quest.122F65B3E376D69E.quest_desc: [
+		"Vibranium tier is now unlocked."
+		""
+		"The Deeper and Darker dimension opens, and vibranium ore now generates within it."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.122F65B3E376D69E.title: "AllTheModium Tier Complete"
+	quest.14857DBF1DCBF100.quest_desc: ["Cresting the waves like a shadow of the past, this cursed vessel is crewed by skeletons that seem impossible to keep down. Every deck hides danger, every hold whispers of lost treasure and every strike you land may be fleeting. Only the bold (or the foolhardy) dare to face its relentless undead crew."]
+	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
+	quest.165AC050EF2C0602.quest_desc: [
+		"Cataclysm's Soul Forge boss. A brute with %-HP scaling damage."
+		""
+		"Health: 500. Damage: 21 + 8% of your max HP."
+	]
+	quest.165AC050EF2C0602.title: "Slay the Netherite Monstrosity"
+	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
+	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
+	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
+	quest.1CCA31D9352C60E6.quest_subtitle: "Find a mushroom village"
+	quest.1CEF2A38948010A2.quest_desc: ["Out on the open seas, the &6Illagers&r have taken to the waves, commandeering massive galleys and swift corsairs. Their sails cast long shadows, and their cannons roar with fury. Only the bravest dare to board, for fortune favors those who seize it."]
+	quest.1CEF2A38948010A2.quest_subtitle: "Find an Illager Corsair or an Illager Galley"
+	quest.1DBCA9C1AF6FDF43.quest_desc: [
+		"Summon and defeat the Wither (3 wither skeleton skulls + 4 soul sand)."
+		""
+		"The nether stars dropped will be needed later in the progression."
+	]
+	quest.1DBCA9C1AF6FDF43.title: "Slay the Wither"
+	quest.1F10BC33D22328BD.quest_desc: ["Time has claimed this once-sacred site, leaving its halls cracked and overgrown. Now, ghostly skeletons and trickster illusioners linger within, guarding little more than shadows of former glory. Though its dangers are real, the temple’s sturdy walls make it a tempting refuge for those seeking a foothold in this hostile world."]
+	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
+	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past, or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
+	quest.21426F5EEC922866.quest_subtitle: "Find a Typhon"
+	quest.28B3D49F399409AB.quest_desc: ["A heavily-armored Mowzie's Mobs boss buried in stone."]
+	quest.28B3D49F399409AB.title: "Slay the Ferrous Wroughtnaut"
+	quest.2916108A1B8F4185.quest_desc: ["Bosses'Rise Sandworm. Found in a Sandworm Nest in desert biomes. HP 200, heavily armored (20)."]
+	quest.2916108A1B8F4185.title: "Slay the Sandworm"
+	quest.2A0A01BE836BB2AB.quest_desc: ["A monument of grandeur and mystery, the Shiraz Palace sprawls in every direction, its halls twisting and turning beyond comprehension. Its purpose remains unknown, but its size and opulence are undeniable. Travelers beware: without a companion, it’s all too easy to lose your way in this labyrinthine estate."]
+	quest.2A0A01BE836BB2AB.quest_subtitle: "Find the Shiraz Palace"
+	quest.2A1B0386B7987DD3.quest_desc: ["Vast and dreamlike, the Aviary stretches high into wtilight sky, its halls divided into four whimsical quadrants. Each one unfolds as a surreal scene, bright, strange, and perilous in its own way. To wander here feels like stepping beyond reality itself. Is this the journey’s end… or just another beginning?"]
+	quest.2A1B0386B7987DD3.quest_subtitle: "Find an Aviary"
+	quest.2B70445E6CD99EDB.quest_desc: [
+		"Strange structures have begun rising from the land. Mysterious dungeons, fortresses, and towers that pierce the skies. No one knows where they came from, only that they’re teeming with hostile creatures, forgotten treasures, and powerful secrets."
+		""
+		"Your task is to venture forth and uncover the mysteries of these ancient places. Each dungeon holds new dangers, but also the keys to survival: weapons, artifacts, and knowledge that will aid you in the trials ahead."
+		""
+		"Prepare yourself adventurer. &6Exploration&r and courage are the only ways to thrive in this world where the land itself rises against you."
+	]
+	quest.2DB4F395EA26DF4B.quest_subtitle: "Find a Coliseum"
+	quest.2E29868CFBA09710.quest_desc: [
+		"A Bosses of Mass Destruction Nether boss. Find its arena in the Nether."
+		""
+		"Tip: Aquaculture's Neptunium pickaxe is obsidian-level. Craft one from Neptunium ingots (rare fish drop) to mine obsidian before reaching diamond."
+	]
+	quest.2E29868CFBA09710.title: "Slay the Gauntlet"
+	quest.2EFC5DBD8122A0AE.quest_desc: ["Far below the surface lies a twisted network of chambers, where the air is thick with disease and shadow. Once a place of treatment, it now resembles a burial ground for forgotten rulers, its halls echoing with the whispers of those long lost. Only the brave (or the desperate) dare to tread these haunted corridors."]
+	quest.2EFC5DBD8122A0AE.quest_subtitle: "Find a Plague Asylum"
+	quest.31E765506D62AFE6.quest_desc: ["Find an Ocean Monument and defeat the Elder Guardian."]
+	quest.31E765506D62AFE6.title: "Slay the Elder Guardian"
+	quest.3477D742127856C3.quest_desc: ["Twilight Forest's Aurora Palace final boss."]
+	quest.3477D742127856C3.title: "Slay the Snow Queen"
+	quest.3538680AE7F0999C.quest_desc: ["Bosses'Rise Yeti. Found in a Yeti Hideout in cold biomes. HP 250, low armor but hits hard (18 dmg)."]
+	quest.3538680AE7F0999C.title: "Slay the Yeti"
+	quest.37F5D25303C214C4.quest_desc: [
+		"You may now craft the Ultimate Gateway Pearl."
+		""
+		"Forge it from vibranium and netherite ingredients, then place it in the world."
+		""
+		"It will summon 5 sequential boss waves, one per prior tier, at vibranium-level difficulty."
+		""
+		"Defeat all 5 waves to receive 3 unobtanium ore + the next two ender eyes."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.37F5D25303C214C4.title: "Vibranium Tier Complete"
+	quest.3A56F398833F5F84.quest_desc: ["Mowzie's Mobs latest boss."]
+	quest.3A56F398833F5F84.title: "Slay Umvuthi (Sculptor of Flesh)"
+	quest.3A6C00168875E544.quest_desc: ["Cataclysm 3.27 ocean kraken boss. Beware her Clawdian minions."]
+	quest.3A6C00168875E544.title: "Slay Scylla"
+	quest.3D1C0F80B74B27D5.quest_subtitle: "Arrive at a Lighthouse"
+	quest.3ECA226F08D5195F.quest_desc: ["Hidden among hills and valleys, the monastery stands as a quiet refuge in a world of rising danger. Here, villagers tend to simple lives of prayer and work, untouched by Illager conquest. Though the halls hold little in the way of treasure, their sturdy walls and peaceful company make this an ideal sanctuary for weary adventurers."]
+	quest.3ECA226F08D5195F.quest_subtitle: "Find a Monastery"
+	quest.4118927D9D079DC8.quest_desc: ["Rising like jagged thorns from the ground, these massive towers are defended by skeletons entwined with deadly roses. Each level is heavily fortified, and flying rose guards patrol the skies above. Only those who ascend to the top will claim the treasures and secrets hidden within."]
+	quest.4118927D9D079DC8.quest_subtitle: "Visit the Thornborn Towers"
+	quest.425E128AE0DC3808.quest_desc: [
+		"You have proven yourself worthy of iron-tier challenges."
+		""
+		"Diamond-tier content is now unlocked. The Wither and Elder Guardian await."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.425E128AE0DC3808.title: "Iron Tier Complete"
+	quest.436231715C11E3BA.quest_desc: ["Scattered across the wilds, small bands of Illagers set up camp beneath their distinctive purple tents. Though their supplies are meager and their loot scarce, their presence is a warning, the Illagers’ reach grows wider with every outpost."]
+	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
+	quest.441196A1C95FA372.quest_desc: [
+		"With unobtanium ore in hand, smelt and forge a sword."
+		""
+		"Wielding it unlocks the final-tier bosses: Ancient Remnant, Harbinger, and Ignis."
+	]
+	quest.441196A1C95FA372.title: "Forge an Unobtanium Sword"
+	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out if you dare, and uncover the secrets hidden within its metallic shell."]
+	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
+	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
+	quest.4791FC0A2E834D85.quest_subtitle: "Find a Bathhouse"
+	quest.4DC3E14E6EE6837B.quest_desc: ["The Lich rules the Lich Tower in Twilight Forest. Defeat him."]
+	quest.4DC3E14E6EE6837B.title: "Slay the Twilight Lich"
+	quest.4E4052F7EAD4FDD6.quest_desc: ["Bright banners and painted walls lure travelers closer, but inside these towering strongholds, chaos reigns. Each floor brims with bandits and traps, their laughter echoing as waves of foes pour from endless spawners. Conquer the towers, and their riches, and notoriety, are yours."]
+	quest.4E4052F7EAD4FDD6.quest_subtitle: "Find the Bandit Towers"
+	quest.509E9CA83FBC780E.quest_subtitle: "Find a Fishing Hut"
+	quest.50F4DF069700ED8F.quest_desc: ["Cataclysm's Cursed Pyramid boss. 3-phase fight."]
+	quest.50F4DF069700ED8F.title: "Slay the Ancient Remnant"
+	quest.5100CFAD43E7D67A.quest_desc: ["Rising like a monument to conquest, this sprawling fortress serves as a bastion of Illager power. Its many levels are patrolled by raiders and spellcasters, their banners declaring dominion over the land. Within its halls lie chambers of wealth, guarded by Evokers whose magic is as deadly as their stares."]
+	quest.5100CFAD43E7D67A.quest_subtitle: "Find an Illager Fort"
+	quest.53AF2B722A69DCDC.quest_desc: ["Tucked away in the tall grass, this lonely house stands weathered and broken, its timbers groaning with age. Easy to overlook, it bears little more than the memory of those who once called it home. Still, even the smallest refuge can hold a story."]
+	quest.53AF2B722A69DCDC.quest_subtitle: "Find a Small Prairie House"
+	quest.53B560611795F560.quest_desc: ["Ice and Fire. The strongest ice dragon variant."]
+	quest.53B560611795F560.title: "Slay an Ancient Ice Dragon"
+	quest.541BBC35DA4F0B73.quest_desc: ["Sprouting from a cluster of towering fungi, this outpost of miners has carved their livelihood into the surface world. Ruthless and territorial, they will defend their claim with tooth and nail. Whether the giant mushrooms shield them from the sun or serve some darker purpose, none can say. One truth remains certain: the mine runs rich with ore, for those bold enough to claim it."]
+	quest.541BBC35DA4F0B73.quest_subtitle: "Find a Mushroom Mine"
+	quest.546A74CE8D3D35A7.quest_desc: ["The 3-headed Twilight Hydra. Brace for fire."]
+	quest.546A74CE8D3D35A7.title: "Slay the Hydra"
+	quest.55158B9B1CB86CB6.quest_desc: [
+		"Cataclysm's Ancient Factory boss. Found in overworld caves."
+		""
+		"Use a Nether Star (from the Wither, Diamond tier) to wake him."
+	]
+	quest.55158B9B1CB86CB6.title: "Slay The Harbinger"
+	quest.55A06AA3EED98549.quest_desc: ["Cataclysm's Sunken City boss. Tank-class HP, deep-ocean abyssal attacks."]
+	quest.55A06AA3EED98549.title: "Slay The Leviathan"
+	quest.57FF2A4599B9D9A8.quest_desc: ["Bosses of Mass Destruction. Found in lush caves."]
+	quest.57FF2A4599B9D9A8.title: "Slay the Void Blossom"
+	quest.59DBC67A53B59081.quest_desc: [
+		"Netherite-tier content is now unlocked."
+		""
+		"The Undergarden dimension opens. Within its caves, the relocated Ruined Citadel houses the Ender Guardian."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.59DBC67A53B59081.title: "Diamond Tier Complete"
+	quest.5AED29E54DCA8EAC.quest_desc: ["Twilight Forest's Minotaur boss, found in the Labyrinth."]
+	quest.5AED29E54DCA8EAC.title: "Slay the Minoshroom"
+	quest.5B1DC22A25D6C589.quest_desc: [
+		"With Vibranium tier complete, the recipe is now available."
+		""
+		"Pattern (3x3): N-V-N / V-E-V / N-V-N"
+		"  N = netherite ingot"
+		"  V = vibranium ingot"
+		"  E = nether star"
+	]
+	quest.5B1DC22A25D6C589.title: "Craft the Ultimate Gateway Pearl"
+	quest.5C12F4CC1F6F6C32.quest_desc: ["Looming among the clouds, this massive airship bristles with defenses and hostile crew. Phantom-mounted fiends circle overhead, while fish-like raiders astride hoglins stalk the decks. Boarding it is no small feat. Tthose who triumph will etch their name among the few who dared challenge the skies."]
+	quest.5C12F4CC1F6F6C32.quest_subtitle: "Find a Heavenly Challenger"
+	quest.5CA62C8E4AE8AF13.quest_desc: ["Deeper and Darker's apex predator."]
+	quest.5CA62C8E4AE8AF13.title: "Slay the Stalker"
+	quest.61B2B0404CDE7372.quest_desc: ["Twilight Forest Knight Stronghold encounter (defeat all 3)."]
+	quest.61B2B0404CDE7372.title: "Slay the Knight Phantoms"
+	quest.6267C5F0D71A6B97.quest_desc: [
+		"Cataclysm's phantom-master in the Frosted Prison."
+		""
+		"Beware his summoned phantom minions."
+	]
+	quest.6267C5F0D71A6B97.title: "Slay Maledictus"
+	quest.63116691C92FD576.quest_desc: ["A quiet spring hidden among the hills, its waters swirl mysteriously in the bottomless well. Travelers speak of subtle blessings for those brave enough to approach. Some even report a modest burst of speed for journeys ahead. Whether magic or rumor, the well offers a curious advantage to explorers."]
+	quest.63116691C92FD576.quest_subtitle: "Find a Wishing Well"
+	quest.6447492FAA873F93.quest_desc: ["Suspended in the sky, this floating steampunk city glows in hues of orange and green. Strange, gear-driven inhabitants roam its platforms, each dominated by a singular central eye or monocle. Enter with caution, this mechanical hive is as clever as it is imposing, and its secrets are tightly guarded."]
+	quest.6447492FAA873F93.quest_subtitle: "Find a Mechanical Nest"
+	quest.65E06752EC603EE4.quest_desc: ["Bosses'Rise Underworld Knight. Found in an Underworld Arena. HP 280, balanced fighter."]
+	quest.65E06752EC603EE4.title: "Slay the Underworld Knight"
+	quest.67030CEFEC1CEF37.quest_desc: ["Driven from their villages, these hardy merchants now wander the wilds, taking shelter beneath simple cyan and brown tents. Though weary from exile, they still offer trade and refuge to travelers brave enough to seek them out. In a world rising with danger, such camps are rare havens of trust."]
+	quest.67030CEFEC1CEF37.quest_subtitle: "Find a Merchant Campsite"
+	quest.6858E25E510AE0FA.quest_desc: ["Drifting through the skies like a colossal squid, this otherworldly airship bristles with defenses. Phantom-riding monstrosities circle its hull, while fish-like warriors astride hoglins guard its decks. To face the Conqueror is to battle a skyborne legion. And only the strongest will claim victory."]
+	quest.6858E25E510AE0FA.quest_subtitle: "Find a Heavenly Conqueror"
+	quest.68D1285215CA239F.quest_desc: ["Bosses of Mass Destruction Lich, found in the Lich Tower."]
+	quest.68D1285215CA239F.title: "Slay the BOMD Lich"
+	quest.694748855D8ACFE2.quest_desc: [
+		"You've survived your first night and proven yourself. Iron Tier is now unlocked."
+		""
+		"Mine iron, gold, and silver. Then face the Twilight Forest, Mowzie's, Ice and Fire, and BOMD bosses that await."
+	]
+	quest.694748855D8ACFE2.title: "Copper Tier Complete"
+	quest.6A0237FADC519965.quest_desc: ["From a distance, it looks peaceful. Fields of golden wheat swaying beside a proud windmill. But don’t be deceived: the Illagers tend no crops for trade. Behind the rustic facade lies a nest of evil, their blades as sharp as the sickles they carry."]
+	quest.6A0237FADC519965.quest_subtitle: "Find an Illager Windmill"
+	quest.6B27E8754A809D52.quest_desc: ["Ice and Fire. The strongest fire dragon variant."]
+	quest.6B27E8754A809D52.title: "Slay an Ancient Fire Dragon"
+	quest.6BFE5D35265080E6.quest_desc: ["A sprawling underground stronghold, the Scorched Mines radiate in four cardinal directions from a central dome. Heat and shadows fill the tunnels, and danger lurks at every turn. Brave adventurers who navigate its branching paths may uncover riches, but only if they survive the hazards within."]
+	quest.6BFE5D35265080E6.quest_subtitle: "Find the Scorched Mines"
+	quest.6CB5ACBAAED66871.quest_desc: ["Shaped from the stem and cap of a giant fungus, this whimsical dwelling offers a rare touch of charm in a perilous world. Lightly guarded and easy to claim, the mushroom house makes for a delightful refuge, perfect for any adventurer who’s ever dreamed of calling a mushroom home."]
+	quest.6CB5ACBAAED66871.quest_subtitle: "Find a Mushroom House"
+	quest.6F98578BA463B1DC.quest_desc: [
+		"Craft your first Gate Pearl using the recipe in JEI/REI."
+		""
+		"Ingredients (early-game friendly): glowstone dust, spider eye, gunpowder, bones, rotten flesh, and an ender pearl in the center."
+		""
+		"Tip: kill an enderman for the pearl, mine glowstone in the Nether (or trade with villagers)."
+	]
+	quest.6F98578BA463B1DC.title: "Craft a Gate Pearl"
+	quest.6FC5325538A61D7F.quest_desc: ["Ice and Fire. Find an adult fire dragon's lair."]
+	quest.6FC5325538A61D7F.title: "Slay an Adult Fire Dragon"
+	quest.70327C3AC547B354.quest_desc: ["Marked by its dark prismarine and yellow terracotta roof, this temple has long since fallen to corruption. Inside, swarms of spider-like creatures creep through its halls, striking with venom and ferocity. To enter is to step into a nest where every shadow crawls."]
+	quest.70327C3AC547B354.quest_subtitle: "Find an Infested Temple"
+	quest.7052C9A5A804E866.quest_desc: ["A riot of color rises from the wilderness, marking the territory of a cunning band of raiders. Their homes are bright and inviting, but enter at your own risk. These defenders strike fast and often. Those who prevail will find spoils and secrets hidden among the lively façades."]
+	quest.7052C9A5A804E866.quest_subtitle: "Find a Bandit Village"
+	quest.7054F875FC1EB95B.quest_desc: ["Ice and Fire. Find an adult ice dragon's lair."]
+	quest.7054F875FC1EB95B.title: "Slay an Adult Ice Dragon"
+	quest.706E37A023DC6FE2.quest_desc: ["Bosses'Rise Infernal Dragon. Found in a Dragon Tower. HP 250 with heavy armor (25). Tier-aligned with Twilight Forest dragons."]
+	quest.706E37A023DC6FE2.title: "Slay the Infernal Dragon"
+	quest.73D5EE5238C37982.quest_desc: ["In the wilds rests the skeletal form of a great creature. its skeleton stretching skyward like branches of pale bone. Whether a relic of forgotten myth or a beast once hunted to extinction, none can say. Its silent frame endures as a monument to creatures long lost."]
+	quest.73D5EE5238C37982.quest_subtitle: "Find a Ceryneian Hind"
+	quest.74071FD1B98FF360.quest_desc: [
+		"Bosses of Mass Destruction's Obsidilith, relocated to the Undergarden."
+		""
+		"Find his arena in the Undergarden's biomes."
+	]
+	quest.74071FD1B98FF360.title: "Slay the Obsidilith"
+	quest.75873CC212CDCB60.quest_desc: ["Twilight Forest Dark Tower boss."]
+	quest.75873CC212CDCB60.title: "Slay the Ur-Ghast"
+	quest.75E8B2DCB6F6552A.quest_desc: [
+		"AllTheModium tier is now unlocked."
+		""
+		"Drill straight down past Y=-30 to reach The Other dimension and mine your first allthemodium ore."
+		""
+		"Re-claim this quest at any time to recover lost ender eyes."
+	]
+	quest.75E8B2DCB6F6552A.title: "Netherite Tier Complete"
+	quest.7638F5B789C7E38D.quest_desc: ["Naga is the entry boss of Twilight Forest. Find and slay it in the Naga Courtyard."]
+	quest.7638F5B789C7E38D.title: "Slay the Naga"
+	quest.76DAECF378BA3F19.quest_desc: ["Far beneath the surface lies a labyrinth of rails and tunnels, carved by long-forgotten hands. The air is thick with dust and danger. Creatures lurk in the shadows, and the echoes of minecarts rattle through the dark. Yet for those who endure, veins of treasure and hidden chambers make the descent worthwhile."]
+	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
+	quest.7899C785F16A7ED7.quest_desc: ["An Ice and Fire desert beast."]
+	quest.7899C785F16A7ED7.title: "Slay the Death Worm"
+	quest.7D25613FD9AA78DB.quest_desc: [
+		"Place the Gate Pearl on the ground to summon the Overworldian Nights gateway."
+		""
+		"Survive 5 waves of zombies, skeletons, spiders, and creepers."
+		""
+		"Completing the gateway unlocks the Iron Tier."
+	]
+	quest.7D25613FD9AA78DB.title: "Survive the Night Gateway"
+	quest.7D3D441EE5E84C67.quest_desc: ["A Mowzie's Mobs ice-themed yeti found in cold biomes."]
+	quest.7D3D441EE5E84C67.title: "Slay the Frostmaw"
+	quest.7E78E6D81054737E.quest_desc: ["A one-eyed giant from Ice and Fire. Find one in the overworld."]
+	quest.7E78E6D81054737E.title: "Slay the Cyclops"
+	quest.B500000000000700.quest_desc: ["Mowzie's Mobs Sculptor, vibranium-tier elite. Note: distinct from Umvuthi (Sculptor of Flesh) at AllTheModium tier."]
+	quest.B500000000000700.title: "Slay the Sculptor"
+	quest.654ACECA0E6CB7AC.quest_desc: [
+		"Welcome, adventurer! This pack guides you through 7 tiers of progression: Copper, Iron, Diamond, Netherite, AllTheModium, Vibranium, and Unobtanium."
+		""
+		"Open the questbook (default Y key) to track each tier's bosses. Complete a tier to unlock the next."
+		""
+		"Tech mods (AE2, Powah, Mekanism, Flux) are open from the start. Use them while you grind through the boss tiers."
+		""
+		"Claim this quest for a starter food bundle: 16 bread + 8 cooked beef."
+	]
+	quest.654ACECA0E6CB7AC.title: "Welcome to BestTechRpg"
+	quest.256A5E8C797D6860.quest_desc: [
+		"Each tier has a chapter in the Progression group. Kill all bosses in a chapter to unlock the next tier."
+		""
+		"Eyes of Ender are quest rewards only. They cannot be found or crafted. Lose one? The chapter is repeatable."
+		""
+		"Stages are persistent: progressing in one world won't help in another. Each new save starts fresh at Copper."
+	]
+	quest.256A5E8C797D6860.title: "Progression Overview"
+	quest.50AC60587BCB4F35.quest_desc: [
+		"To leave Copper tier, you must craft a Gateway Pearl and survive the Overworldian Nights gateway."
+		""
+		"Pearl recipe (early-game-friendly):"
+		"  D = glowstone dust"
+		"  E = spider eye (top-center)"
+		"  G = gunpowder"
+		"  A = ENDER PEARL (center). Kill an enderman"
+		"  B = bones"
+		"  F = rotten flesh"
+		""
+		"Pattern: DED / GAG / BFB"
+		""
+		"Place the pearl on a block. It survives 5 waves of zombies, skeletons, spiders, creepers."
+	]
+	quest.50AC60587BCB4F35.title: "Crafting the Gateway Pearl"
+	quest.643F3B5697B07F63.quest_desc: [
+		"AE2, Powah, Mekanism, Flux Networks, Extended AE: all crafting recipes are available immediately."
+		""
+		"You CANNOT craft iron-tier tools or armor at Copper, but you CAN start setting up basic AE2 networks, Powah generators, and Mekanism factories."
+		""
+		"This means: spend dead time waiting for endermen by setting up automated farms or building infrastructure."
+	]
+	quest.643F3B5697B07F63.title: "Tech Mods Are Unlocked"
+	quest.27A01A6F79D4DA55.quest_desc: [
+		"Xaero's Minimap is in the top corner. Right-click in the map to set waypoints."
+		""
+		"Open the world map with M (default). Switch waypoint sets per dimension."
+		""
+		"Waystones (the standalone teleporter blocks) integrate with the map via the Waystones2Waypoints mod."
+		""
+		"FTB Chunks lets you claim chunks and force-load them, which is useful for AE2/Powah/Mekanism setups that need to keep ticking while you're away."
+	]
+	quest.27A01A6F79D4DA55.title: "Map and Waystones"
+	quest.6037D101FEB60A62.quest_desc: [
+		"Iron tier opens with five required bosses + the Bosses'Rise Sandworm."
+		""
+		"Twilight Forest: Build a 2x2 water pool surrounded by flowers, throw a diamond into it during a thunderstorm to open a portal."
+		""
+		"Naga and Twilight Lich first. TF enforces this order internally. Naga drops scales for armor; Lich drops a Scepter."
+		""
+		"Mowzie's Ferrous Wroughtnaut: look for him buried in stone bunkers. Break the surface block to wake him."
+		""
+		"BOMD Gauntlet: in Nether arenas. Watch for telegraphed punches."
+		""
+		"Tip: Aquaculture's Neptunium pickaxe mines obsidian. Craft a Neptunium pickaxe from rare-fish drops in the ocean to handle obsidian and Nether portal builds before reaching diamond tier."
+		""
+		"Enchanting unlocks here. The enchanting table is now usable, and the only bookshelves that work are Twilight Forest's Canopy Bookshelves (made from canopy planks in TF). Cap: ~15 Eterna (vanilla level-30 enchants)."
+	]
+	quest.6037D101FEB60A62.title: "Iron Tier: Twilight Forest and First Bosses"
+	quest.7A43DC13EE90EE29.quest_desc: [
+		"Diamond tier introduces vanilla bosses you've been waiting for: Wither and Elder Guardian."
+		""
+		"Wither summon: 4 wither skeleton skulls (rare drops from Nether fortress wither skeletons) + 4 soul sand. Use Looting III + a Beheading enchant from any combat mod for faster skull drops."
+		""
+		"Elder Guardian: in Ocean Monument structures. Bring milk to clear Mining Fatigue."
+		""
+		"Bosses'Rise Yeti and Underworld Knight unlock here. Find Yeti Hideouts in cold biomes, Underworld Arenas underground."
+		""
+		"Twilight: Minoshroom (Labyrinth) → Hydra (Hydra Lair). The Hydra is a fire-resistance fight."
+		""
+		"Enchanting boost: AllTheModium's Demonic and Soul bookshelves unlock here, crafted from demonic/soul planks (both are Nether woods). Cap rises to ~30 Eterna."
+	]
+	quest.7A43DC13EE90EE29.title: "Diamond Tier: Wither and Sea"
+	quest.1C1C9771D391038A.quest_desc: [
+		"Netherite tier unlocks the Undergarden dimension. To enter:"
+		""
+		"Build a 3x3 portal frame from Catalyst-mineral blocks (the Undergarden mod's purple stone, check JEI). Activate with a Hard Catalyst."
+		""
+		"The Cataclysm Ruined Citadel has been relocated here. It now generates in deep Undergarden biomes (depths, infected_depths, barren_abyss, ancient_sea, dead_sea). Inside: Ender Guardian boss + Ender Golem minibosses."
+		""
+		"Twilight: Ur-Ghast (Dark Tower) and Knight Phantoms (Knight Stronghold)."
+		""
+		"BOMD Void Blossom: lush caves."
+		""
+		"Bosses'Rise Infernal Dragon: Dragon Tower structure, heavily armored (25 armor)."
+		""
+		"Enchanting boost: vanilla bookshelves and all Quark wood-themed bookshelves unlock here, plus Apothic Hellshelf and Seashelf (the base variants). Cap rises to ~45 Eterna."
+	]
+	quest.1C1C9771D391038A.title: "Netherite Tier: Undergarden"
+	quest.76F5E1D2198586EC.quest_desc: [
+		"AllTheModium ore generates ONLY in The Other dimension. To get there:"
+		""
+		"Mine straight down past Y=-30 in any overworld chunk. Eventually you'll break through into The Other dimension, a dark cavernous realm."
+		""
+		"DO NOT use a piston, TNT, or anything other than direct mining. The entry mechanic only triggers when a player breaks the block."
+		""
+		"Once inside, ATM ore is plentiful. Smelt it for Allthemodium ingots → craft sword/pickaxe/armor (gated by tier_allthemodium stage)."
+		""
+		"Cataclysm Maledictus (Frosted Prison) is a phantom-summoner boss. Clear his minions first."
+		""
+		"BOMD Obsidilith arena is now relocated to the Undergarden alongside the Ruined Citadel."
+		""
+		"Enchanting boost: ATM Ancient Bookshelf unlocks here, made from Ancient planks (Ancient trees only grow in The Other). Apothic upgraded shelves also open: Blazing/Glowing/Infused Hellshelf, Crystal/Heart/Infused Seashelf, plus Beeshelf/Melonshelf/Stoneshelf (these REDUCE Eterna in exchange for higher quanta/arcana). Cap rises to ~60-65 Eterna."
+	]
+	quest.76F5E1D2198586EC.title: "AllTheModium: Drill Down to The Other"
+	quest.63A6A59DFBDC0759.quest_desc: [
+		"Vibranium tier unlocks Deeper and Darker. Entry: build a portal from Sculk blocks (4x5 frame, Reinforced Echo Shard activator). Check JEI for the exact recipe."
+		""
+		"Vibranium ore now generates in D&D biomes (relocated from The Other). Mine sculk-stone areas to find it."
+		""
+		"Cataclysm Sunken City (Leviathan) and Soul Forge (Netherite Monstrosity). Fight in the Nether or oceans."
+		""
+		"Cataclysm Scylla: a kraken boss in oceans. She summons Clawdians as minions."
+		""
+		"Twilight: Snow Queen at the Aurora Palace. She's TF's effective endgame in 1.21."
+		""
+		"After Vibranium, the Ultimate Pearl recipe unlocks."
+		""
+		"Enchanting boost: Apothic deep-tier shelves unlock. Deepshelf, Dormant/Echoing/Soul-touched Deepshelf, plus the Filtering Shelf (lets you whitelist which enchantments can roll). Cap rises to ~70-75 Eterna."
+	]
+	quest.63A6A59DFBDC0759.title: "Vibranium: Deeper and Darker"
+	quest.04F3F8AB1CB65B25.quest_desc: [
+		"The endgame is a 4-step gauntlet:"
+		""
+		"1. Craft the Ultimate Pearl: 4 vibranium + 4 netherite + 1 nether star. Pattern: NVN / VEV / NVN."
+		""
+		"2. Place the pearl. Five sequential boss waves spawn, one boss from each prior tier, all stat-buffed to vibranium difficulty. Survive all 5 to receive 3 unobtanium ore + bonus drops."
+		""
+		"3. Forge an unobtanium sword. This unlocks the final boss tier."
+		""
+		"4. Slay Ancient Remnant, Harbinger (needs nether star), Ignis (% HP scaling damage), and the D&D Stalker. The endgame sentinel grants The End access + the final 2 ender eyes (cryptic, evil)."
+		""
+		"With all 12 eyes assembled, the End Portal lights and the Ender Dragon awaits."
+		""
+		"Enchanting endgame: top-tier shelves unlock. Endshelf, Draconic/Pearl Endshelf, Echoing/Soul-touched Sculkshelf. Cap reaches ~80-100 Eterna (Apothic super-levels accessible: Sharpness 8+, etc.)."
+	]
+	quest.04F3F8AB1CB65B25.title: "Unobtanium: The Endgame"
+	quest.7B070110B0FA1100.title: "Botany Pots"
+	quest.7B070110B0FA1100.quest_desc: [
+		"Botany Pots let you grow crops, saplings, mushrooms, and even ores in compact pots. No farmland or daylight needed."
+		""
+		"Pair a pot with a Hopper Botany Pot to auto-harvest into chests. Great for AFK farms and tech-mod feedstock."
+		""
+		"Recipe: terracotta + sticks for the basic pot. Check JEI for the dozens of color/material variants."
+	]
+	quest.7B070210B0FA1200.title: "Bountiful"
+	quest.7B070210B0FA1200.quest_desc: [
+		"Bountiful adds a Bounty Board (right-click to place) where you can pick up generated bounties. Kill X mobs or collect Y items in exchange for emeralds, XP, or rare loot."
+		""
+		"Boards refresh on a timer. A reliable side income while you grind progression."
+		""
+		"Craft from a piece of paper plus wood/iron (see JEI)."
+	]
+	quest.7B070310B0FA1300.title: "Farmer's Delight"
+	quest.7B070310B0FA1300.quest_desc: [
+		"Farmer's Delight overhauls cooking. Use a Knife on crops/meats for ingredients, a Cutting Board to chop without consuming the knife, and a Cooking Pot (sits on a heat source) to make stews and meals."
+		""
+		"Tomatoes, onions, rice, and cabbages grow from wild plants. Wander dirt biomes to find seeds."
+		""
+		"Combines beautifully with Spice of Life: every meal is a unique food."
+	]
+	quest.7B070410B0FA1400.title: "FTB Suite"
+	quest.7B070410B0FA1400.quest_desc: [
+		"This pack uses several FTB mods together:"
+		""
+		"FTB Quests, the questbook you're reading right now. Open with the book icon (default keybind H)."
+		""
+		"FTB Chunks: claim chunks (M for map, then click to claim) so other players can't break/build there. Force-load chunks to keep them ticking offline."
+		""
+		"FTB Teams: group up with friends. Shared quest progress for team members."
+		""
+		"FTB Library / FTB XMod Compat: runtime glue."
+	]
+	quest.7B070510B0FA1500.title: "Lootr"
+	quest.7B070510B0FA1500.quest_desc: [
+		"Lootr replaces dungeon/structure loot containers with per-player instances. Each player who opens a chest sees their own private roll. No more racing your friends for the good drops."
+		""
+		"Vanilla loot tables are preserved, just instanced."
+		""
+		"Lootr trophies are awarded for being the first to open certain rare structure chests. Collect them as a flex."
+	]
+	quest.7B070610B0FA1600.title: "Nature's Compass"
+	quest.7B070610B0FA1600.quest_desc: [
+		"Craft a Nature's Compass (compass + sapling, see JEI)."
+		""
+		"Right-click to open the biome list. Pick a biome and the compass points toward the nearest one and shows the distance."
+		""
+		"Essential for finding specific biomes for crops, mob spawns, or progression structures."
+	]
+	quest.7B070710B0FA1700.title: "Sophisticated Backpacks"
+	quest.7B070710B0FA1700.quest_desc: [
+		"Sophisticated Backpacks adds wearable storage with upgrade slots. Tiers: leather → copper → iron → gold → diamond → netherite, each with more inventory + more upgrade slots."
+		""
+		"Useful upgrades: Magnet (auto-pickup nearby items), Pickup (deposit straight into the pack), Stack (multiplies stack sizes), Feeding (auto-eat when hungry), Compacting (auto-craft to blocks)."
+		""
+		"Sophisticated Storage adds the same upgrade system to chests/barrels/shulkers."
+		""
+		"Bonus: 5 leather to start your first backpack."
+	]
+	quest.7B070810B0FA1800.title: "Spice of Life: Carrot Edition"
+	quest.7B070810B0FA1800.quest_desc: [
+		"Eating a variety of foods grants permanent bonus hearts. This pack's config:"
+		""
+		"+1 max heart for every 5 unique foods you've eaten, up to 60 milestones (300 unique foods)."
+		""
+		"Open the Food Book (craft: book + carrot) to track which foods you've tried."
+		""
+		"Pairs perfectly with Farmer's Delight. Every distinct meal counts."
+	]
+	quest.7B070910B0FA1900.title: "Useful Slime and Hang Glider"
+	quest.7B070910B0FA1900.quest_desc: [
+		"Useful Slime: adds Slime Boots (no fall damage when landing on slime), Bouncy Slime Block (extra bounce), and Jello (food). Crafted from slime balls + leather/wool."
+		""
+		"Hang Glider: craft from sticks, string, and wool. Equip in offhand or trinket slot, then hold the keybind (default G) while falling to glide. Combine with Slime Boots for cushy landings, or with elytra for endgame travel before you have actual elytra."
+	]
+	quest.7B071010B0FA1A00.title: "Sky's Overworld Netherite"
+	quest.7B071010B0FA1A00.quest_desc: [
+		"Sky's Overworld Netherite adds Ancient Debris generation in the deep Overworld, typically Y < 0 in deepslate biomes."
+		""
+		"It's rarer than Nether ancient debris but provides an alternative path. Combine both sources to speed up your netherite progression."
+		""
+		"Drops: standard Ancient Debris pieces. Smelt and craft as usual."
+	]
+	quest.7E0C5D2A11B4A301.title: "Welcome to Iron Tier"
+	quest.7E0C5D2A11B4A301.quest_desc: [
+		"Iron Tier reached."
+		""
+		"Twilight Forest opens. Enchanting unlocks. Iron and gold gear is craftable."
+	]
+	quest.8B3F18C42E0A7B05.title: "Welcome to Diamond Tier"
+	quest.8B3F18C42E0A7B05.quest_desc: [
+		"Diamond Tier reached."
+		""
+		"Diamond gear is craftable. New bookshelves come online and your enchanting power steps up."
+	]
+	quest.9C5D27B9E408F12A.title: "Welcome to Netherite Tier"
+	quest.9C5D27B9E408F12A.quest_desc: [
+		"Netherite Tier reached."
+		""
+		"Netherite gear is craftable. The Undergarden dimension is now accessible. Vanilla and Quark bookshelves work, plus the first Apothic shelves."
+	]
+	quest.6A2E18D79C5F310B.title: "Welcome to AllTheModium Tier"
+	quest.6A2E18D79C5F310B.quest_desc: [
+		"AllTheModium Tier reached."
+		""
+		"The Other dimension opens. ATM gear is craftable. Apothic upgraded shelves come online and enchanting power leaps."
+	]
+	quest.4F19A7E2B6CD8403.title: "Welcome to Vibranium Tier"
+	quest.4F19A7E2B6CD8403.quest_desc: [
+		"Vibranium Tier reached."
+		""
+		"Deeper and Darker opens. Vibranium gear is craftable. Apothic deep-tier shelves come online."
+	]
+	quest.2D8B47A3E91F65C7.title: "Welcome to Unobtanium Tier"
+	quest.2D8B47A3E91F65C7.quest_desc: [
+		"Unobtanium Tier reached. The endgame begins."
+		""
+		"The Ultimate Pearl, the final boss tier, and The End all await."
+	]
+	task.03CAC8EEE7EE6E5F.title: "Endgame Reached"
+	task.04971CD6B0E2A2ED.title: "Diamond Tier Complete"
+	task.09746D963FC5E182.title: "Netherite Tier Complete"
+	task.098AFBC11035ECA5.title: "AllTheModium: Drill Down to The Other"
+	task.0A2001AC378BD5BA.title: "Vibranium: Deeper and Darker"
+	task.110D85CC78BB92D9.title: "Iron Tier: Twilight Forest and First Bosses"
+	task.1E114695453A0A57.title: "Netherite Tier: Undergarden"
+	task.2050E99CD66954CA.title: "Welcome!"
+	task.2E6B1E4F292379B3.title: "Unobtanium: The Endgame"
+	task.3380EFFB50149BBE.title: "Tech Mods Are Unlocked"
+	task.3DE13FE3B75C9D59.title: "AllTheModium Tier Complete"
+	task.5025194497B768BD.title: "Diamond Tier: Wither and Sea"
+	task.53696C30DC72AED3.title: "Iron Tier Complete"
+	task.5812C874497B9D3C.title: "Progression Overview"
+	task.62275AB2760DD322.title: "Vibranium Tier Complete"
+	task.626D1764BC251DED.title: "Map and Waystones"
+	task.7AA0FFC0FA322B03.title: "Crafting the Gateway Pearl"
+}

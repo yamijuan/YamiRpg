@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_copper"
+	group: "1000000000000001"
+	icon: {
+		id: "minecraft:copper_ingot"
+	}
+	id: "52F2647880997CB2"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "3A1CCC2F8D56A888"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "41E9133A4C634CA7"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "6A0A33C0779EA302"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "18BF4CF8A1C36C5E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "79649C8579431536"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "6F2CC209B483B3F9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "33993807845248AE"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "51FF50958236E64E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glowstone_dust"
+			}
+			id: "0CD8344496A632EF"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "58C8C0DC51E496D3"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "6BC64735F9E5CDCF"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6381C43F47E9BAD9"
+				type: "kill"
+				value: 3L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A1CCC2F8D56A888"
+				"6A0A33C0779EA302"
+				"79649C8579431536"
+				"33993807845248AE"
+				"0CD8344496A632EF"
+				"6BC64735F9E5CDCF"
+			]
+			icon: {
+				id: "gateways:gate_pearl"
+			}
+			id: "6F98578BA463B1DC"
+			shape: "circle"
+			tasks: [{
+				id: "31B2D2BB3D769ECD"
+				item: { components: { "gateways:gateway": "gateways:overworldian_nights" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F98578BA463B1DC"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "7D25613FD9AA78DB"
+			shape: "circle"
+			tasks: [{
+				advancement: "besttechrpg:complete_easy_gateway"
+				criterion: ""
+				id: "131B72A2749918A6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F98578BA463B1DC"
+				"7D25613FD9AA78DB"
+			]
+			id: "694748855D8ACFE2"
+			rewards: [
+				{
+					command: "astages add @p tier_iron"
+					id: "4F2687E0438C8E66"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Iron Tier Unlocked\",\"color\":\"white\"}"
+					exclude_from_claim_all: true
+					id: "6B1F1BCCA5B190AE"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D88A420B6EB86B5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0897C088A30A481F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

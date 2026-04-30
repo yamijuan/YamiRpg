@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_unobtanium"
+	group: "1000000000000001"
+	icon: {
+		id: "allthemodium:unobtainium_ingot"
+	}
+	id: "0E2218FC1B91F21F"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37F5D25303C214C4"]
+			hide_until_deps_complete: true
+			id: "08E184FF368A8F87"
+			rewards: [
+				{
+					command: "astages add @p tier_unobtanium_ore"
+					id: "299167205670F858"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Unobtanium Ore Unlocked\",\"color\":\"gold\"}"
+					exclude_from_claim_all: true
+					id: "49404F20ABC471AA"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					count: 3
+					id: "4D1992629B5686FD"
+					item: {
+						count: 1
+						id: "allthemodium:unobtainium_ore"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5349EBAA05FC0A85"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "besttechrpg:complete_ultimate_gateway"
+				criterion: ""
+				id: "3AE36B188594E1FA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E184FF368A8F87"]
+			hide_until_deps_complete: true
+			id: "441196A1C95FA372"
+			rewards: [
+				{
+					command: "astages add @p tier_unobtanium_bosses"
+					id: "3D7AA7A016D1CB13"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Final Bosses Unlocked\",\"color\":\"gold\"}"
+					exclude_from_claim_all: true
+					id: "4CBC0450A4F601BF"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E00A2BB63DF545A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4FA453F5629223AE"
+				item: { count: 1, id: "allthemodium:unobtainium_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["441196A1C95FA372"]
+			hide_until_deps_complete: true
+			id: "50F4DF069700ED8F"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "4878CFB82C98F837"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["441196A1C95FA372"]
+			hide_until_deps_complete: true
+			id: "55158B9B1CB86CB6"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0C95515BB607CFAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["441196A1C95FA372"]
+			hide_until_deps_complete: true
+			id: "0FCF69CC084F6057"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "54F19604C88DCF4F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["441196A1C95FA372"]
+			hide_until_deps_complete: true
+			id: "5CA62C8E4AE8AF13"
+			shape: "circle"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "7979D7BE22A55028"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"50F4DF069700ED8F"
+				"55158B9B1CB86CB6"
+				"0FCF69CC084F6057"
+				"5CA62C8E4AE8AF13"
+			]
+			hide_until_deps_complete: true
+			id: "0F1977E8770B85F2"
+			rewards: [
+				{
+					command: "astages add @p tier_endgame"
+					id: "76A9E3B3A76AB310"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Endgame: The End Awaits\",\"color\":\"light_purple\"}"
+					exclude_from_claim_all: true
+					id: "2839F1A449C84A23"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "45251F64B7184080"
+					item: {
+						count: 1
+						id: "endrem:cryptic_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "0D12B66CA3DE3AEC"
+					item: {
+						count: 1
+						id: "endrem:evil_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "547B4B60610936BD"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "03CAC8EEE7EE6E5F"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37F5D25303C214C4"]
+			hide_until_deps_complete: true
+			icon: { id: "allthemodium:unobtainium_ingot" }
+			id: "2D8B47A3E91F65C7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "2D8B47A3E91F65C8", type: "checkmark" }]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

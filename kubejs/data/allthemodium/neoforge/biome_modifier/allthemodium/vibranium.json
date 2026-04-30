@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": ["deeperdarker:blooming_caverns", "deeperdarker:deeplands", "deeperdarker:echoing_forest", "deeperdarker:overcast_columns"],
+  "features": "besttechrpg:vibranium_in_deeperdarker",
+  "step": "underground_ores"
+}

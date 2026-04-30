@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_vibranium"
+	group: "1000000000000001"
+	icon: {
+		id: "allthemodium:vibranium_ingot"
+	}
+	id: "6B50C5791569EF58"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "165AC050EF2C0602"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "1A729F53D4EA8E76"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "55A06AA3EED98549"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "784AF62B8768C567"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "3A6C00168875E544"
+			shape: "circle"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "74F5AD6B00F4E462"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "3477D742127856C3"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "1F7B771F4B7DA062"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "6B27E8754A809D52"
+			shape: "circle"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "5EC7AFB4E1499C08"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "53B560611795F560"
+			shape: "circle"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "51136BD7F281D8D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			id: "70A740A81B94CF03"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "75EB8F29C70649A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"165AC050EF2C0602"
+				"55A06AA3EED98549"
+				"3A6C00168875E544"
+				"3477D742127856C3"
+				"6B27E8754A809D52"
+				"53B560611795F560"
+			]
+			hide_until_deps_complete: true
+			id: "37F5D25303C214C4"
+			rewards: [
+				{
+					command: "astages add @p tier_unobtanium_pearl"
+					id: "53A2F2042F391852"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Ultimate Gateway Available\",\"color\":\"gold\"}"
+					exclude_from_claim_all: true
+					id: "53A9065B0BC71C5C"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p subtitle {\"text\":\"Vibranium bosses defeated\",\"color\":\"gray\"}"
+					exclude_from_claim_all: true
+					id: "53A9065B0BC71C5D"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "32BCBA5E226A555B"
+					item: {
+						count: 1
+						id: "endrem:cursed_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "3C118072273D44B2"
+					item: {
+						count: 1
+						id: "endrem:corrupted_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "734318F6E65EC793"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "62275AB2760DD322"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["122F65B3E376D69E"]
+			hide_until_deps_complete: true
+			icon: { id: "allthemodium:vibranium_ingot" }
+			id: "4F19A7E2B6CD8403"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "4F19A7E2B6CD8404", type: "checkmark" }]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

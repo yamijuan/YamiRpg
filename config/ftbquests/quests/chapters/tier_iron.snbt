@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_iron"
+	group: "1000000000000001"
+	icon: {
+		id: "minecraft:iron_ingot"
+	}
+	id: "2191AFAE2DE97EED"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "7638F5B789C7E38D"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "3A2C86B5E9EB8107"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "4DC3E14E6EE6837B"
+			shape: "circle"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "6F6CCB4FFB7E45AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "28B3D49F399409AB"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "54241264530D6F40"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "7E78E6D81054737E"
+			shape: "circle"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "6D2CAF3AE9DB8ABC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "2E29868CFBA09710"
+			shape: "circle"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "54C0EFD685338D4E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			id: "2916108A1B8F4185"
+			shape: "circle"
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				id: "06219E154FB3A6AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7638F5B789C7E38D"
+				"4DC3E14E6EE6837B"
+				"28B3D49F399409AB"
+				"7E78E6D81054737E"
+				"2E29868CFBA09710"
+				"2916108A1B8F4185"
+			]
+			hide_until_deps_complete: true
+			id: "425E128AE0DC3808"
+			rewards: [
+				{
+					command: "astages add @p tier_diamond"
+					id: "125872533AC257EF"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p title {\"text\":\"Diamond Tier Unlocked\",\"color\":\"aqua\"}"
+					exclude_from_claim_all: true
+					id: "52E1FE2429442EE8"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "title @p subtitle {\"text\":\"Iron bosses defeated\",\"color\":\"gray\"}"
+					exclude_from_claim_all: true
+					id: "52E1FE2429442EE9"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "585A8893451B0075"
+					item: {
+						count: 1
+						id: "endrem:exotic_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "1D3A2AB4A2BD5C78"
+					item: {
+						count: 1
+						id: "endrem:undead_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB272924C9ED204"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "53696C30DC72AED3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:iron_ingot" }
+			id: "7E0C5D2A11B4A301"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "7E0C5D2A11B4A302", type: "checkmark" }]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}
