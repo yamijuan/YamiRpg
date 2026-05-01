@@ -46,3 +46,11 @@ saves/
 mods/
 shaderpacks/
 resourcepacks/
+
+# Release artifacts (uploaded directly to GitHub releases, not versioned)
+*-pack-*.zip
+mods-*.zip
+INSTALL.md
+
+# Player-generated content
+screenshots/
