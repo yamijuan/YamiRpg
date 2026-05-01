@@ -16,4 +16,4 @@
 	"Add Neptune's Bounty as loot?" = true
 	# Default: 1
 	# Range: 1 ~ 100
-	"Neptunium loot table weight - For reference; Fish loot table weight: 85, Junk loot table weight: 10" = 1
+	"Neptunium loot table weight - For reference; Fish loot table weight: 85, Junk loot table weight: 10" = 10

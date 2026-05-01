@@ -156,7 +156,7 @@
 		"minecraft:golden_pickaxe", "minecraft:golden_sword", "minecraft:golden_axe", "minecraft:golden_shovel", "minecraft:golden_hoe",
 		"minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots",
 		// Iron-tier utility items
-		"minecraft:bucket", "minecraft:water_bucket", "minecraft:lava_bucket", "minecraft:milk_bucket", "minecraft:powder_snow_bucket",
+		"minecraft:lava_bucket", "minecraft:powder_snow_bucket",
 		"minecraft:iron_door", "minecraft:iron_bars", "minecraft:iron_trapdoor",
 		"minecraft:shears", "minecraft:flint_and_steel", "minecraft:shield", "minecraft:bell",
 		"minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:cauldron",
@@ -269,12 +269,14 @@
 		// Diamond-tier tools and armor
 		"minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots",
 		"minecraft:diamond_pickaxe", "minecraft:diamond_sword", "minecraft:diamond_axe", "minecraft:diamond_shovel", "minecraft:diamond_hoe",
+		"minecraft:trident",
 		// Diamond-tier utility (enchanting_table available earlier; golden apples ungated)
 		"minecraft:beacon", "minecraft:ender_chest",
 		// Aquaculture Neptunium armor gated to diamond
 		"aquaculture:neptunium_helmet", "aquaculture:neptunium_chestplate",
 		"aquaculture:neptunium_leggings", "aquaculture:neptunium_boots",
 		"aquaculture:neptunium_sword", "aquaculture:neptunium_axe",
+		"aquaculture:neptunium_bow",
 		// ATM nether-source bookshelves (maxEterna 30). ancient_bookshelf is The-Other-only, gated at ATM
 		"allthemodium:demonic_bookshelf", "allthemodium:soul_bookshelf"
 	]);
@@ -374,11 +376,13 @@
 		"allthemodium:allthemodium_leggings", "allthemodium:allthemodium_boots",
 		"allthemodium:allthemodium_pickaxe", "allthemodium:allthemodium_sword",
 		"allthemodium:allthemodium_axe", "allthemodium:allthemodium_shovel", "allthemodium:allthemodium_hoe",
+		// ATM food (high regen/saturation): gated until ATM tier
+		"allthemodium:allthemodium_apple", "allthemodium:allthemodium_carrot",
 		// ATM ancient_bookshelf: only Ancient wood from The Other dim, naturally gated here
 		"allthemodium:ancient_bookshelf",
 		// Cataclysm boss-drop materials (ingots, blocks, nuggets) - all gated until ATM tier
 		"cataclysm:ancient_metal_ingot", "cataclysm:ancient_metal_nugget", "cataclysm:ancient_metal_block",
-		"cataclysm:ignitium", "cataclysm:ignitium_ingot", "cataclysm:ignitium_block",
+		"cataclysm:ignitium_ingot", "cataclysm:ignitium_block",
 		"cataclysm:cursium_ingot", "cataclysm:cursium_block",
 		"cataclysm:black_steel_ingot", "cataclysm:black_steel_nugget", "cataclysm:black_steel_block",
 		"cataclysm:witherite_ingot", "cataclysm:witherite_block",

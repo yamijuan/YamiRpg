@@ -175,5 +175,69 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["694748855D8ACFE2"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "0A1B2C3D4E5F6001"
+			rewards: [{
+				id: "0A1B2C3D4E5F6003"
+				item: {
+					count: 1
+					id: "aquaculture:neptunium_ingot"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0A1B2C3D4E5F6002"
+				item: { count: 1, id: "aquaculture:neptunium_ingot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A1B2C3D4E5F6001"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			id: "0A1B2C3D4E5F6004"
+			rewards: [{
+				id: "0A1B2C3D4E5F6006"
+				item: {
+					count: 1
+					id: "twilightforest:canopy_bookshelf"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "0A1B2C3D4E5F6005"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A1B2C3D4E5F6004"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "twilightforest:canopy_bookshelf"
+			}
+			id: "0A1B2C3D4E5F6007"
+			shape: "circle"
+			tasks: [{
+				id: "0A1B2C3D4E5F6008"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
 	]
 }

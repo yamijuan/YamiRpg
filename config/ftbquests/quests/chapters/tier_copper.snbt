@@ -16,6 +16,15 @@
 				id: "minecraft:rotten_flesh"
 			}
 			id: "3A1CCC2F8D56A888"
+			rewards: [{
+				count: 3
+				id: "7E1B0A5C9D4F3201"
+				item: {
+					count: 1
+					id: "minecraft:rotten_flesh"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:zombie"
@@ -31,6 +40,15 @@
 				id: "minecraft:bone"
 			}
 			id: "6A0A33C0779EA302"
+			rewards: [{
+				count: 6
+				id: "7E1B0A5C9D4F3202"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:skeleton"
@@ -46,6 +64,15 @@
 				id: "minecraft:spider_eye"
 			}
 			id: "79649C8579431536"
+			rewards: [{
+				count: 3
+				id: "7E1B0A5C9D4F3203"
+				item: {
+					count: 1
+					id: "minecraft:spider_eye"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:spider"
@@ -61,6 +88,15 @@
 				id: "minecraft:gunpowder"
 			}
 			id: "33993807845248AE"
+			rewards: [{
+				count: 6
+				id: "7E1B0A5C9D4F3204"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:creeper"
@@ -76,6 +112,15 @@
 				id: "minecraft:glowstone_dust"
 			}
 			id: "0CD8344496A632EF"
+			rewards: [{
+				count: 6
+				id: "7E1B0A5C9D4F3205"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:witch"
@@ -91,6 +136,15 @@
 				id: "minecraft:ender_pearl"
 			}
 			id: "6BC64735F9E5CDCF"
+			rewards: [{
+				count: 3
+				id: "7E1B0A5C9D4F3206"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:enderman"
