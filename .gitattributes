@@ -1,0 +1,14 @@
+# Cross-platform repo (Mac + Windows). Force LF line endings everywhere
+# so files match between machines and git status stays clean regardless
+# of any developer's local core.autocrlf setting.
+* text=auto eol=lf
+
+# Binary file types — never convert.
+*.jar binary
+*.zip binary
+*.png binary
+*.ogg binary
+*.mca binary
+*.dat binary
+*.dat_old binary
+*.nbt binary
