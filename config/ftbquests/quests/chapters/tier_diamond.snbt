@@ -153,12 +153,6 @@
 			id: "59DBC67A53B59081"
 			rewards: [
 				{
-					command: "astages add @p tier_netherite"
-					id: "24767485DFEA44FA"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					command: "title @p title {\"text\":\"Netherite Tier Unlocked\",\"color\":\"dark_red\"}"
 					exclude_from_claim_all: true
 					id: "48C3F128729E551E"
@@ -211,6 +205,18 @@
 				id: "minecraft:diamond"
 			}
 			id: "0EA0B5FAB6891A6C"
+			rewards: [
+				{
+					id: "0D5E4F6A7B8C9001"
+					item: { count: 1, id: "allthemodium:demonic_bookshelf" }
+					type: "item"
+				}
+				{
+					id: "0D5E4F6A7B8C9002"
+					item: { count: 1, id: "allthemodium:soul_bookshelf" }
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{

@@ -108,12 +108,6 @@
 			id: "425E128AE0DC3808"
 			rewards: [
 				{
-					command: "astages add @p tier_diamond"
-					id: "125872533AC257EF"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					command: "title @p title {\"text\":\"Diamond Tier Unlocked\",\"color\":\"aqua\"}"
 					exclude_from_claim_all: true
 					id: "52E1FE2429442EE8"

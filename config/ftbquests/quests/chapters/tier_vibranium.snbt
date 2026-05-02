@@ -122,12 +122,6 @@
 			id: "37F5D25303C214C4"
 			rewards: [
 				{
-					command: "astages add @p tier_unobtanium_pearl"
-					id: "53A2F2042F391852"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					command: "title @p title {\"text\":\"Ultimate Gateway Available\",\"color\":\"gold\"}"
 					exclude_from_claim_all: true
 					id: "53A9065B0BC71C5C"

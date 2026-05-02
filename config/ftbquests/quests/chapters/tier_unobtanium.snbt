@@ -156,12 +156,6 @@
 			id: "0F1977E8770B85F2"
 			rewards: [
 				{
-					command: "astages add @p tier_endgame"
-					id: "76A9E3B3A76AB310"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					command: "title @p title {\"text\":\"Endgame: The End Awaits\",\"color\":\"light_purple\"}"
 					exclude_from_claim_all: true
 					id: "2839F1A449C84A23"

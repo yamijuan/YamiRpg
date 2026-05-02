@@ -44,6 +44,7 @@ saves/
 
 # Heavy binaries (shared manually for now)
 mods/
+mods_disabled/
 shaderpacks/
 resourcepacks/
 

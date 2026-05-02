@@ -123,12 +123,6 @@
 			id: "75E8B2DCB6F6552A"
 			rewards: [
 				{
-					command: "astages add @p tier_allthemodium"
-					id: "525E166D9C1C8BF8"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					command: "title @p title {\"text\":\"AllTheModium Tier Unlocked\",\"color\":\"dark_purple\"}"
 					exclude_from_claim_all: true
 					id: "0C1A7D2DE47B8E72"
