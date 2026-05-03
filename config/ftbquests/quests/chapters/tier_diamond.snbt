@@ -84,20 +84,6 @@
 		{
 			dependencies: ["425E128AE0DC3808"]
 			hide_until_deps_complete: true
-			id: "7899C785F16A7ED7"
-			shape: "circle"
-			tasks: [{
-				entity: "iceandfire:death_worm"
-				id: "7B364754ED036A03"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["425E128AE0DC3808"]
-			hide_until_deps_complete: true
 			id: "68D1285215CA239F"
 			shape: "circle"
 			tasks: [{
@@ -115,24 +101,32 @@
 			id: "3538680AE7F0999C"
 			shape: "circle"
 			tasks: [{
-				entity: "block_factorys_bosses:yeti"
+				advancement: "block_factorys_bosses:kill_yeti"
+				criterion: ""
 				id: "73F52A0FE2696B0A"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 9.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["425E128AE0DC3808"]
+			dependencies: [
+				"1DBCA9C1AF6FDF43"
+				"31E765506D62AFE6"
+				"5AED29E54DCA8EAC"
+				"546A74CE8D3D35A7"
+				"7D3D441EE5E84C67"
+				"68D1285215CA239F"
+				"3538680AE7F0999C"
+			]
 			hide_until_deps_complete: true
 			id: "65E06752EC603EE4"
 			shape: "circle"
 			tasks: [{
-				entity: "block_factorys_bosses:underworld_knight"
+				advancement: "block_factorys_bosses:kill_dragon"
+				criterion: ""
 				id: "36D6846DF498B2B3"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 11.0d
 			y: -2.0d
@@ -144,7 +138,6 @@
 				"5AED29E54DCA8EAC"
 				"546A74CE8D3D35A7"
 				"7D3D441EE5E84C67"
-				"7899C785F16A7ED7"
 				"68D1285215CA239F"
 				"3538680AE7F0999C"
 				"65E06752EC603EE4"
@@ -152,6 +145,12 @@
 			hide_until_deps_complete: true
 			id: "59DBC67A53B59081"
 			rewards: [
+				{
+					command: "astages add @p tier_netherite"
+					id: "24767485DFEA44FA"
+					permission_level: 2
+					type: "command"
+				}
 				{
 					command: "title @p title {\"text\":\"Netherite Tier Unlocked\",\"color\":\"dark_red\"}"
 					exclude_from_claim_all: true
@@ -208,12 +207,18 @@
 			rewards: [
 				{
 					id: "0D5E4F6A7B8C9001"
-					item: { count: 1, id: "allthemodium:demonic_bookshelf" }
+					item: {
+						count: 1
+						id: "allthemodium:demonic_bookshelf"
+					}
 					type: "item"
 				}
 				{
 					id: "0D5E4F6A7B8C9002"
-					item: { count: 1, id: "allthemodium:soul_bookshelf" }
+					item: {
+						count: 1
+						id: "allthemodium:soul_bookshelf"
+					}
 					type: "item"
 				}
 			]

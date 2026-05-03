@@ -101,10 +101,10 @@
 			id: "706E37A023DC6FE2"
 			shape: "circle"
 			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
 				id: "7F702030EB61742B"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 9.0d
 			y: -2.0d
@@ -122,6 +122,12 @@
 			hide_until_deps_complete: true
 			id: "75E8B2DCB6F6552A"
 			rewards: [
+				{
+					command: "astages add @p tier_allthemodium"
+					id: "525E166D9C1C8BF8"
+					permission_level: 2
+					type: "command"
+				}
 				{
 					command: "title @p title {\"text\":\"AllTheModium Tier Unlocked\",\"color\":\"dark_purple\"}"
 					exclude_from_claim_all: true
@@ -174,11 +180,29 @@
 			icon: {
 				id: "minecraft:netherite_ingot"
 			}
-			id: "5E257FBB76904CA8"
+			id: "0D5E4F6A7B8C9003"
+			rewards: [
+				{
+					id: "3BFFF91BD2D47EBA"
+					item: {
+						count: 1
+						id: "apothic_enchanting:hellshelf"
+					}
+					type: "item"
+				}
+				{
+					id: "0D5E4F6A7B8C9004"
+					item: {
+						count: 1
+						id: "apothic_enchanting:seashelf"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "79FDD3AFB6FCA15F"
+				id: "1A4B8E2C7D9F0E11"
 				type: "checkmark"
 			}]
 			x: 0.0d

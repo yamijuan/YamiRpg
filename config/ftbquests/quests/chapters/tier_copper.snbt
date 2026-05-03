@@ -214,6 +214,13 @@
 					type: "command"
 				}
 				{
+					command: "title @p subtitle {\"text\":\"Copper journey complete\",\"color\":\"gray\"}"
+					exclude_from_claim_all: true
+					id: "6B1F1BCCA5B190AF"
+					permission_level: 2
+					type: "command"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "1D88A420B6EB86B5"
 					type: "xp"

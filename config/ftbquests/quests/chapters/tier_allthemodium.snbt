@@ -93,6 +93,12 @@
 			id: "122F65B3E376D69E"
 			rewards: [
 				{
+					command: "astages add @p tier_vibranium"
+					id: "708EE90F0B9E0FDE"
+					permission_level: 2
+					type: "command"
+				}
+				{
 					command: "title @p title {\"text\":\"Vibranium Tier Unlocked\",\"color\":\"blue\"}"
 					exclude_from_claim_all: true
 					id: "29027D8900454069"

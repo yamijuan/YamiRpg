@@ -70,6 +70,23 @@
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
 	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
+	quest.0D5E4F6A7B8C9003.quest_desc: [
+		"You've reached the &4Netherite Tier&r."
+		""
+		"&cAncient Debris&r is no longer disguised as netherrack — head to the Nether and start mining."
+		""
+		"&6Crafting Netherite gear:&r"
+		"You'll need the vanilla &dNetherite Upgrade Smithing Template&r. It drops in &cBastion Remnants&r — most reliably from the &6treasure room&r variant, but housing and hoglin-stable bastions have a chance too."
+		""
+		"&6Reward bookshelves:&r"
+		"Two themed Apothic Enchanting bookshelves to power your enchanting setup:"
+		"&c• Hellshelf&r — boosts fire and Nether-themed enchants"
+		"&b• Seashelf&r — boosts water and aquatic-themed enchants"
+		""
+		"&7Tip: Place these around your enchanting table to access the higher-tier enchants Apothic Enchanting unlocks."
+	]
+	quest.0D5E4F6A7B8C9003.quest_subtitle: "Ancient Debris is unlocked"
+	quest.0D5E4F6A7B8C9003.title: "Welcome to Netherite"
 	quest.0DF8B48060213CD8.quest_desc: ["Ice and Fire. The rarest dragon variant."]
 	quest.0DF8B48060213CD8.title: "Slay an Adult Lightning Dragon"
 	quest.0E78F00A88B9C53B.quest_desc: ["Twilight Forest's Yeti Cave boss."]
@@ -242,11 +259,19 @@
 	quest.4E4052F7EAD4FDD6.quest_desc: ["Bright banners and painted walls lure travelers closer, but inside these towering strongholds, chaos reigns. Each floor brims with bandits and traps, their laughter echoing as waves of foes pour from endless spawners. Conquer the towers, and their riches, and notoriety, are yours."]
 	quest.4E4052F7EAD4FDD6.quest_subtitle: "Find the Bandit Towers"
 	quest.4F19A7E2B6CD8403.quest_desc: [
-		"Vibranium Tier reached."
+		"You've reached the &9Vibranium Tier&r."
 		""
-		"Deeper and Darker opens. Vibranium gear is craftable. Apothic deep-tier shelves come online."
+		"To craft &9Vibranium armor&r, you need the &bVibranium Upgrade Smithing Template&r."
+		""
+		"&6Where to find it:&r"
+		"Brush &8suspicious soul sand&r found in &cBastion Remnant&r treasure rooms (Nether)."
+		""
+		"AllTheModium replaces about &e0.7%&r of the blackstone in bastion treasure rooms with suspicious soul sand during structure generation. Find a bastion with a treasure room, bring a brush, and sweep the blackstone walls and floors."
+		""
+		"&7Tip: Treasure rooms are the &6gold-block&r variant of bastions. The other bastion types (housing, hoglin stable, bridge) won't have these."
 	]
-	quest.4F19A7E2B6CD8403.title: "Welcome to Vibranium Tier"
+	quest.4F19A7E2B6CD8403.quest_subtitle: "Find the Vibranium Upgrade Smithing Template"
+	quest.4F19A7E2B6CD8403.title: "Welcome to Vibranium"
 	quest.509E9CA83FBC780E.quest_subtitle: "Find a Fishing Hut"
 	quest.50AC60587BCB4F35.quest_desc: [
 		"To leave Copper tier, you must craft a Gateway Pearl and survive the Overworldian Nights gateway."
@@ -394,11 +419,19 @@
 	quest.6A0237FADC519965.quest_desc: ["From a distance, it looks peaceful. Fields of golden wheat swaying beside a proud windmill. But don’t be deceived: the Illagers tend no crops for trade. Behind the rustic facade lies a nest of evil, their blades as sharp as the sickles they carry."]
 	quest.6A0237FADC519965.quest_subtitle: "Find an Illager Windmill"
 	quest.6A2E18D79C5F310B.quest_desc: [
-		"AllTheModium Tier reached."
+		"You've reached the &5AllTheModium Tier&r."
 		""
-		"The Other dimension opens. ATM gear is craftable. Apothic upgraded shelves come online and enchanting power leaps."
+		"To craft &5Allthemodium armor&r, you need the &dAllthemodium Upgrade Smithing Template&r."
+		""
+		"&6Where to find it:&r"
+		"Brush &bsuspicious clay&r found in &8Ancient Cities&r (Deep Dark biome)."
+		""
+		"AllTheModium replaces about &e0.9%&r of the polished basalt in Ancient Cities with suspicious clay during structure generation. Bring a brush, sweep the floors, and listen for the chime — that's the template."
+		""
+		"&7Tip: Ancient Cities are large, and the spawn rate is low. Plan to brush a lot of basalt, or visit multiple cities."
 	]
-	quest.6A2E18D79C5F310B.title: "Welcome to AllTheModium Tier"
+	quest.6A2E18D79C5F310B.quest_subtitle: "Find the Allthemodium Upgrade Smithing Template"
+	quest.6A2E18D79C5F310B.title: "Welcome to AllTheModium"
 	quest.6B27E8754A809D52.quest_desc: ["Ice and Fire. The strongest fire dragon variant."]
 	quest.6B27E8754A809D52.title: "Slay an Ancient Fire Dragon"
 	quest.6BFE5D35265080E6.quest_desc: ["A sprawling underground stronghold, the Scorched Mines radiate in four cardinal directions from a central dome. Heat and shadows fill the tunnels, and danger lurks at every turn. Brave adventurers who navigate its branching paths may uncover riches, but only if they survive the hazards within."]

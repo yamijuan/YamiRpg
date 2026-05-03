@@ -269,10 +269,12 @@
 	function rampForEnchant(vanillaMax, moddedMax) {
 		const ironCap      = Math.max(1, Math.floor(vanillaMax / 2));
 		const netheriteCap = vanillaMax + Math.floor((moddedMax - vanillaMax) / 2);
+		const atmCap       = netheriteCap + 1;
 		return [
 			{ stage: "tier_diamond",      cap: ironCap      },
 			{ stage: "tier_netherite",    cap: vanillaMax   },
-			{ stage: "tier_allthemodium", cap: netheriteCap }
+			{ stage: "tier_allthemodium", cap: netheriteCap },
+			{ stage: "tier_vibranium",    cap: atmCap       }
 		].filter(s => s.cap < moddedMax); // skip no-op caps at/above modded max
 	}
 
@@ -304,33 +306,17 @@
 		"twilightforest:minoshroom",
 		"twilightforest:hydra",
 		"mowziesmobs:frostmaw",
-		"iceandfire:death_worm",
 		"bosses_of_mass_destruction:lich",
 		"block_factorys_bosses:yeti",
-		"block_factorys_bosses:underworld_knight"
+		"block_factorys_bosses:infernal_dragon"
 	]);
 	gateStructures("besttechrpg/diamond", "tier_diamond", [
 		"twilightforest:labyrinth",
 		"twilightforest:hydra_lair",
 		"bosses_of_mass_destruction:lich_tower",
 		"block_factorys_bosses:yeti_hideout",
-		"block_factorys_bosses:underworld_arena",
-		// When Dungeons Arise, diamond-tier loot (verified: chests contain diamond gear, no netherite)
-		"dungeons_arise:bandit_towers",
-		"dungeons_arise:infested_temple",
-		"dungeons_arise:mushroom_village",
-		"dungeons_arise:plague_asylum",
-		"dungeons_arise:mining_complex",
-		"dungeons_arise:mining_system",
-		"dungeons_arise:mushroom_mines",
-		"dungeons_arise:illager_fort",
-		"dungeons_arise:illager_windmill",
-		"dungeons_arise:ceryneian_hind",
-		"dungeons_arise:heavenly_rider",
-		// Seven Seas, diamond-tier ships
-		"dungeons_arise_seven_seas:pirate_junk",
-		"dungeons_arise_seven_seas:unicorn_galleon",
-		"dungeons_arise_seven_seas:victory_frigate"
+		"block_factorys_bosses:dragon_tower"
+		// When Dungeons Arise structures intentionally NOT gated (per user)
 	]);
 	gateTags("besttechrpg/diamond/mat", "tier_diamond", [
 		"c:gems/diamond", "c:gems/emerald",
@@ -376,11 +362,11 @@
 		"iceandfire:deathworm_white_helmet", "iceandfire:deathworm_white_chestplate", "iceandfire:deathworm_white_leggings", "iceandfire:deathworm_white_boots",
 		"iceandfire:deathworm_yellow_helmet", "iceandfire:deathworm_yellow_chestplate", "iceandfire:deathworm_yellow_leggings", "iceandfire:deathworm_yellow_boots",
 		"iceandfire:deathworm_tounge",
-		// BOMD lich
-		"bosses_of_mass_destruction:soul_star", "bosses_of_mass_destruction:obsidian_heart",
-		// BlockFactory yeti + underworld_knight
+		// BOMD lich (sole unique drop is ancient_anima x2; soul_star/obsidian_heart are NOT lich drops)
+		"bosses_of_mass_destruction:ancient_anima",
+		// BlockFactory yeti (ice_gauntlet) + infernal_dragon (dragon_bone, dragon_skull) drops
 		"block_factorys_bosses:ice_gauntlet",
-		"block_factorys_bosses:knight_sword"
+		"block_factorys_bosses:dragon_bone", "block_factorys_bosses:dragon_skull"
 	]);
 	gateRecipes("besttechrpg/diamond", "tier_diamond", [
 		["minecraft:crafting", "endrem:rogue_eye"],
@@ -412,23 +398,16 @@
 		"iceandfire:fire_dragon",
 		"iceandfire:ice_dragon",
 		"bosses_of_mass_destruction:void_blossom",
-		"block_factorys_bosses:infernal_dragon"
+		"block_factorys_bosses:underworld_knight",
+		"block_factorys_bosses:kraken"
 	]);
 	gateStructures("besttechrpg/netherite", "tier_netherite", [
 		"cataclysm:ruined_citadel",
 		"twilightforest:dark_tower",
 		"twilightforest:knight_stronghold",
-		"block_factorys_bosses:dragon_tower",
-		// When Dungeons Arise, netherite-tier loot (verified: chests contain netherite armor/scraps)
-		"dungeons_arise:shiraz_palace",
-		"dungeons_arise:scorched_mines",
-		"dungeons_arise:kisegi_sanctuary",
-		"dungeons_arise:aviary",
-		"dungeons_arise:mechanical_nest",
-		"dungeons_arise:keep_kayra",
-		"dungeons_arise:foundry",
-		"dungeons_arise:heavenly_challenger",
-		"dungeons_arise:heavenly_conqueror"
+		"block_factorys_bosses:underworld_arena",
+		"block_factorys_bosses:kraken_ship"
+		// When Dungeons Arise structures intentionally NOT gated (per user)
 	]);
 	gateTags("besttechrpg/netherite/mat", "tier_netherite", [
 		"c:ingots/netherite", "c:storage_blocks/netherite",
@@ -489,8 +468,10 @@
 		"iceandfire:dragonbone_pickaxe", "iceandfire:dragonbone_sword", "iceandfire:dragonbone_axe", "iceandfire:dragonbone_shovel", "iceandfire:dragonbone_hoe", "iceandfire:dragonbone_bow",
 		// BOMD void_blossom
 		"bosses_of_mass_destruction:void_thorn", "bosses_of_mass_destruction:crystal_fruit", "bosses_of_mass_destruction:void_lily",
-		// BlockFactory infernal_dragon
-		"block_factorys_bosses:dragon_bone", "block_factorys_bosses:dragon_skull"
+		// BlockFactory underworld_knight (knight_sword) — moved from diamond
+		"block_factorys_bosses:knight_sword",
+		// BlockFactory kraken (deep-ocean naval boss + crafted trident)
+		"block_factorys_bosses:kraken_tooth", "block_factorys_bosses:kraken_trident"
 	]);
 	gateRecipes("besttechrpg/netherite", "tier_netherite", [
 		["minecraft:crafting", "endrem:nether_eye"],
@@ -512,7 +493,9 @@
 		["minecraft:crafting", "quark:warped_bookshelf"],
 		// Apothic base shelves
 		["minecraft:crafting", "apothic_enchanting:hellshelf"],
-		["minecraft:crafting", "apothic_enchanting:seashelf"]
+		["minecraft:crafting", "apothic_enchanting:seashelf"],
+		// BlockFactory kraken trident (3 kraken_tooth + 2 wooden rods)
+		["minecraft:crafting", "block_factorys_bosses:kraken_trident"]
 	]);
 
 	// ---------- tier_allthemodium ----------
@@ -531,10 +514,15 @@
 	// ATM ore is restricted via ATM's natural placement (only generates in The Other dim,
 	// which is itself only practically accessible after netherite gear); stage-gating via
 	// recipe + item restrictions further blocks pre-tier mining of any spawned blocks.
+	// Allthemodium ore generation (verified 2026-05-02 from ATM 3.0 jar):
+	//   - vanilla minecraft:deep_dark biome (Ancient Cities) — overworld
+	//   - The Other dimension (all 6 sub-biomes via mining_features/other_features tag)
+	//   - Mining Dimension (allthemodium:mining biome)
+	// Configured feature has TWO targets via stone_ore_replaceables / deepslate_ore_replaceables tags
+	// → both allthemodium_ore and allthemodium_slate_ore variants need gating.
 	gateOres("besttechrpg/atm", "tier_allthemodium", [
-		["allthemodium:allthemodium_ore",        "minecraft:stone"],
-		["allthemodium:end_allthemodium_ore",    "minecraft:end_stone"],
-		["allthemodium:nether_allthemodium_ore", "minecraft:netherrack"]
+		["allthemodium:allthemodium_ore",       "minecraft:stone"],
+		["allthemodium:allthemodium_slate_ore", "minecraft:deepslate"]
 	]);
 	gateItems("besttechrpg/atm", "tier_allthemodium", [
 		"endrem:cold_eye", "endrem:guardian_eye",
@@ -563,7 +551,7 @@
 		"apothic_enchanting:beeshelf", "apothic_enchanting:melonshelf",
 		"apothic_enchanting:stoneshelf", "apothic_enchanting:treasure_shelf",
 		"apothic_enchanting:geode_shelf",
-		"apothic_enchanting:sightshelf",
+		"apothic_enchanting:sightshelf", "apothic_enchanting:sightshelf_t2",
 		// ATM-tier boss drops (uncraftable, must come from killing the gated boss)
 		// Cataclysm maledictus (cursium_ingot already in this list above)
 		"cataclysm:music_disc_maledictus",
@@ -577,8 +565,8 @@
 		"iceandfire:dragonsteel_lightning_helmet", "iceandfire:dragonsteel_lightning_chestplate", "iceandfire:dragonsteel_lightning_leggings", "iceandfire:dragonsteel_lightning_boots",
 		"iceandfire:dragonsteel_lightning_pickaxe", "iceandfire:dragonsteel_lightning_sword", "iceandfire:dragonsteel_lightning_axe", "iceandfire:dragonsteel_lightning_shovel", "iceandfire:dragonsteel_lightning_hoe",
 		"iceandfire:dragonbone_sword_lightning",
-		// BOMD obsidilith
-		"bosses_of_mass_destruction:ancient_anima",
+		// BOMD obsidilith — drops investigated separately; ancient_anima is from the lich (diamond),
+		// obsidilith's actual drops are likely code-spawned (no entities/obsidilith.json in jar)
 		// Mowzies umvuthi
 		"mowziesmobs:sol_visage"
 	]);
@@ -605,7 +593,8 @@
 		["minecraft:crafting", "apothic_enchanting:stoneshelf"],
 		["minecraft:crafting", "apothic_enchanting:treasure_shelf"],
 		["minecraft:crafting", "apothic_enchanting:geode_shelf"],
-		["minecraft:crafting", "apothic_enchanting:sightshelf"]
+		["minecraft:crafting", "apothic_enchanting:sightshelf"],
+		["minecraft:crafting", "apothic_enchanting:sightshelf_t2"]
 	]);
 
 	// ---------- tier_vibranium ----------
@@ -623,10 +612,13 @@
 		"twilightforest:aurora_palace"
 	]);
 	gateDimension("besttechrpg/vibranium/dnd", "tier_vibranium", "deeperdarker:otherside");
+	// Vibranium ore generation (verified 2026-05-02 from ATM 3.0 jar):
+	//   - vibranium_ore: vanilla #minecraft:is_nether biomes (replaces netherrack)
+	//   - other_vibranium_ore: The Other dimension (replaces allthemodium:ancient_stone)
+	//   - Plus our own kubejs override adds vibranium_ore to deeperdarker:otherside.
 	gateOres("besttechrpg/vibranium", "tier_vibranium", [
-		["allthemodium:vibranium_ore",        "minecraft:stone"],
-		["allthemodium:end_vibranium_ore",    "minecraft:end_stone"],
-		["allthemodium:nether_vibranium_ore", "minecraft:netherrack"]
+		["allthemodium:vibranium_ore",       "minecraft:netherrack"],
+		["allthemodium:other_vibranium_ore", "allthemodium:ancient_stone"]
 	]);
 	gateItems("besttechrpg/vibranium", "tier_vibranium", [
 		"endrem:cursed_eye", "endrem:corrupted_eye",
@@ -676,16 +668,22 @@
 	]);
 
 	// ---------- tier_unobtanium_pearl ----------
-	// No explicit AStages restriction needed: the ultimate pearl recipe requires vibranium_ingot
-	// + nether_star + netherite_ingot. Vibranium is gated until tier_vibranium, and the FTB Quest
-	// vibranium-chapter sentinel grants tier_unobtanium_pearl simultaneously. Natural ingredient
-	// progression is the gate.
+	// The ultimate pearl recipe requires vibranium_ingot + nether_star + netherite_ingot.
+	// Vibranium is gated until tier_vibranium, and the FTB Quest vibranium-chapter sentinel
+	// grants tier_unobtanium_pearl simultaneously. Natural ingredient progression is the gate
+	// for the pearl itself.
+	// Quark Ancient Tome upgrades enchantments past their normal max — gated here so it can't
+	// short-circuit our tiered enchant caps before the player reaches end-game.
+	gateItems("besttechrpg/unob_pearl", "tier_unobtanium_pearl", [
+		"quark:ancient_tome"
+	]);
 
 	// ---------- tier_unobtanium_ore ----------
+	// Unobtainium ore generation (verified 2026-05-02 from ATM 3.0 jar):
+	//   - Spawns in minecraft:end_highlands biome (vanilla End), replaces end_stone.
+	//   - Single block ID — no nether/overworld variants in ATM 3.0.
 	gateOres("besttechrpg/unob_ore", "tier_unobtanium_ore", [
-		["allthemodium:unobtainium_ore",        "minecraft:stone"],
-		["allthemodium:end_unobtainium_ore",    "minecraft:end_stone"],
-		["allthemodium:nether_unobtainium_ore", "minecraft:netherrack"]
+		["allthemodium:unobtainium_ore", "minecraft:end_stone"]
 	]);
 	gateItems("besttechrpg/unob_ore", "tier_unobtanium_ore", [
 		"allthemodium:unobtainium_ingot",

@@ -47,6 +47,8 @@ mods/
 mods_disabled/
 shaderpacks/
 resourcepacks/
+otyacraftenginerenewed/
+iammusicplayerrenewed/
 
 # Release artifacts (uploaded directly to GitHub releases, not versioned)
 *-pack-*.zip

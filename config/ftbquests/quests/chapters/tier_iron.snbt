@@ -87,10 +87,10 @@
 			id: "2916108A1B8F4185"
 			shape: "circle"
 			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
+				advancement: "block_factorys_bosses:kill_sandworm"
+				criterion: ""
 				id: "06219E154FB3A6AF"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 6.0d
 			y: -2.0d
@@ -107,6 +107,12 @@
 			hide_until_deps_complete: true
 			id: "425E128AE0DC3808"
 			rewards: [
+				{
+					command: "astages add @p tier_diamond"
+					id: "125872533AC257EF"
+					permission_level: 2
+					type: "command"
+				}
 				{
 					command: "title @p title {\"text\":\"Diamond Tier Unlocked\",\"color\":\"aqua\"}"
 					exclude_from_claim_all: true

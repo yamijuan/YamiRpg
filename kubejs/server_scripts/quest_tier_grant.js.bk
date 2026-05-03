@@ -1,0 +1,82 @@
+// YamiRPG: silent tier grant on FTBQ tier-completion quest checkmark.
+// Registers a NeoForge event-bus listener for FTBQ's quest completion event.
+// Top-level registration (NOT inside ServerEvents.loaded) so /kubejs reload picks it up.
+
+console.info("[YamiRPG] quest_tier_grant.js: top-level reached");
+
+const TIER_QUEST_GRANTS = {
+	"694748855D8ACFE2": { stage: "tier_iron",              title: "Iron Tier Unlocked",        subtitle: "Copper journey complete",      color: "white" },
+	"425E128AE0DC3808": { stage: "tier_diamond",           title: "Diamond Tier Unlocked",      subtitle: "Iron bosses defeated",          color: "aqua" },
+	"59DBC67A53B59081": { stage: "tier_netherite",         title: "Netherite Tier Unlocked",    subtitle: "Diamond bosses defeated",       color: "dark_red" },
+	"75E8B2DCB6F6552A": { stage: "tier_allthemodium",      title: "AllTheModium Tier Unlocked", subtitle: "Netherite bosses defeated",     color: "dark_purple" },
+	"122F65B3E376D69E": { stage: "tier_vibranium",         title: "Vibranium Tier Unlocked",    subtitle: "AllTheModium bosses defeated",  color: "blue" },
+	"37F5D25303C214C4": { stage: "tier_unobtanium_pearl",  title: "Ultimate Gateway Available", subtitle: "Vibranium bosses defeated",     color: "gold" },
+	"08E184FF368A8F87": { stage: "tier_unobtanium_ore",    title: "Unobtanium Ore Unlocked",    subtitle: "Ultimate gateway cleared",      color: "gold" },
+	"441196A1C95FA372": { stage: "tier_unobtanium_bosses", title: "Final Bosses Unlocked",      subtitle: "Unobtanium gear obtained",      color: "gold" },
+	"0F1977E8770B85F2": { stage: "tier_endgame",           title: "Endgame: The End Awaits",    subtitle: "Final bosses defeated",         color: "light_purple" }
+};
+
+function fireGrant(player, grant) {
+	if (!player || !grant) return;
+	const name = player.username;
+	const server = player.server;
+	console.info(`[YamiRPG] fireGrant: granting ${grant.stage} to ${name}`);
+	try {
+		server.runCommandSilent(`astages add ${name} ${grant.stage}`);
+		server.runCommandSilent(`title ${name} title {"text":"${grant.title}","color":"${grant.color}"}`);
+		server.runCommandSilent(`title ${name} subtitle {"text":"${grant.subtitle}","color":"gray"}`);
+		console.info(`[YamiRPG] fireGrant: commands sent for ${name}`);
+	} catch (err) {
+		console.error(`[YamiRPG] fireGrant: command-run error: ${err}`);
+	}
+}
+
+// Register at top level so /kubejs reload server_scripts re-runs registration.
+// JVM System property prevents duplicate listeners across reloads.
+// This Rhino fork has neither `Packages` nor `globalThis` — using Java.loadClass.
+const __TIER_GRANT_FLAG = "yamirpg.tierGrant.registered";
+try {
+	const System = Java.loadClass("java.lang.System");
+	console.info("[YamiRPG] Got System ref: " + System);
+	if (System.getProperty(__TIER_GRANT_FLAG) !== "true") {
+		System.setProperty(__TIER_GRANT_FLAG, "true");
+
+		const NeoForge = Java.loadClass("net.neoforged.neoforge.common.NeoForge");
+		console.info("[YamiRPG] Got NeoForge ref: " + NeoForge);
+
+		const QuestEvent = Java.loadClass("dev.ftb.mods.ftbquests.events.ObjectCompletedEvent$QuestEvent");
+		console.info("[YamiRPG] Got QuestEvent class: " + QuestEvent);
+
+		NeoForge.EVENT_BUS.addListener(QuestEvent, event => {
+			console.info("[YamiRPG] QuestEvent fired");
+			try {
+				const obj = event.getObject();
+				const questId = String(obj.getCodeString());
+				console.info(`[YamiRPG] QuestEvent: questId=${questId}`);
+				const grant = TIER_QUEST_GRANTS[questId];
+				if (!grant) {
+					console.info(`[YamiRPG] QuestEvent: no tier grant mapped for ${questId}`);
+					return;
+				}
+
+				const members = event.getOnlineMembers();
+				console.info(`[YamiRPG] QuestEvent: ${members.size()} online member(s)`);
+				const it = members.iterator();
+				while (it.hasNext()) {
+					fireGrant(it.next(), grant);
+				}
+			} catch (innerErr) {
+				console.error(`[YamiRPG] QuestEvent handler error: ${innerErr}`);
+			}
+		});
+
+		console.info("[YamiRPG] Tier-grant listener registered.");
+	} else {
+		console.info("[YamiRPG] Listener already registered (kubejs reload, JVM unchanged) — using prior registration.");
+	}
+} catch (err) {
+	console.error(`[YamiRPG] Failed to register tier-grant listener: ${err}`);
+	console.error(`[YamiRPG] Error stack: ${err.stack || "(no stack)"}`);
+}
+
+console.info("[YamiRPG] quest_tier_grant.js: end of top-level");

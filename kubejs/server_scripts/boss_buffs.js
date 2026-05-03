@@ -9,7 +9,13 @@ const BOSS_BUFFS = {
 	"mowziesmobs:ferrous_wroughtnaut": { max_health_multiplier:    2.0 },
 	"twilightforest:minoshroom":       { attack_damage_multiplier: 4.0, max_health_multiplier: 5.0 },
 	"minecraft:wither":                { attack_damage_multiplier: 1.2, max_health_multiplier: 1.5 },
-	"minecraft:elder_guardian":        { attack_damage_multiplier: 4.0, max_health_multiplier: 5.0 }
+	"minecraft:elder_guardian":        { attack_damage_multiplier: 4.0, max_health_multiplier: 5.0 },
+	"mowziesmobs:frostmaw":            { attack_damage_multiplier: 2.5, max_health_multiplier: 5.0 },
+	"twilightforest:knight_phantom":   { attack_damage_multiplier: 15.0, max_health_multiplier: 8.0 },
+	"bosses_of_mass_destruction:void_blossom": { attack_damage_multiplier: 2.0, max_health_multiplier: 3.0 },
+	"cataclysm:ender_golem":           { attack_damage_multiplier: 3.0, max_health_multiplier: 3.0 },
+	"cataclysm:ender_guardian":        { attack_damage_multiplier: 2.0, max_health_multiplier: 2.5 },
+	"twilightforest:alpha_yeti":       { attack_damage_multiplier: 100.0, max_health_multiplier: 7.0 }
 };
 
 EntityEvents.spawned(event => {
