@@ -181,7 +181,19 @@
 		// IaF cyclops
 		"iceandfire:cyclops_eye", "iceandfire:cyclops_skull",
 		// BlockFactory sandworm
-		"block_factorys_bosses:sandworm_gauntlet"
+		"block_factorys_bosses:sandworm_gauntlet",
+		// Paladins mod — iron-tier weapons, shields, armor, basic spell items
+		// (acolyte_wand and spell_books left ungated so players can pick a class from spawn;
+		//  stone/wooden weapons left ungated as starter tier)
+		"paladins:iron_claymore", "paladins:golden_claymore",
+		"paladins:iron_great_hammer", "paladins:golden_great_hammer",
+		"paladins:iron_mace", "paladins:golden_mace",
+		"paladins:iron_kite_shield", "paladins:golden_kite_shield",
+		"paladins:paladin_armor_head", "paladins:paladin_armor_chest",
+		"paladins:paladin_armor_legs", "paladins:paladin_armor_feet",
+		"paladins:priest_robe_head", "paladins:priest_robe_chest",
+		"paladins:priest_robe_legs", "paladins:priest_robe_feet",
+		"paladins:holy_wand", "paladins:holy_staff"
 	]);
 	gateRecipes("besttechrpg/iron", "tier_iron", [
 		["minecraft:crafting", "endrem:exotic_eye"],
@@ -208,7 +220,17 @@
 		// Iron-tier enchanting
 		["minecraft:crafting", "minecraft:enchanting_table"],
 		["minecraft:crafting", "twilightforest:canopy_bookshelf"],
-		["minecraft:crafting", "twilightforest:chiseled_canopy_bookshelf"]
+		["minecraft:crafting", "twilightforest:chiseled_canopy_bookshelf"],
+		// Paladins mod — iron-tier
+		["minecraft:crafting", "paladins:iron_claymore"], ["minecraft:crafting", "paladins:golden_claymore"],
+		["minecraft:crafting", "paladins:iron_great_hammer"], ["minecraft:crafting", "paladins:golden_great_hammer"],
+		["minecraft:crafting", "paladins:iron_mace"], ["minecraft:crafting", "paladins:golden_mace"],
+		["minecraft:crafting", "paladins:iron_kite_shield"], ["minecraft:crafting", "paladins:golden_kite_shield"],
+		["minecraft:crafting", "paladins:paladin_armor_head"], ["minecraft:crafting", "paladins:paladin_armor_chest"],
+		["minecraft:crafting", "paladins:paladin_armor_legs"], ["minecraft:crafting", "paladins:paladin_armor_feet"],
+		["minecraft:crafting", "paladins:priest_robe_head"], ["minecraft:crafting", "paladins:priest_robe_chest"],
+		["minecraft:crafting", "paladins:priest_robe_legs"], ["minecraft:crafting", "paladins:priest_robe_feet"],
+		["minecraft:crafting", "paladins:holy_wand"], ["minecraft:crafting", "paladins:holy_staff"]
 	]);
 
 	// ---------- tiered per-enchant level caps ----------
@@ -366,7 +388,15 @@
 		"bosses_of_mass_destruction:ancient_anima",
 		// BlockFactory yeti (ice_gauntlet) + infernal_dragon (dragon_bone, dragon_skull) drops
 		"block_factorys_bosses:ice_gauntlet",
-		"block_factorys_bosses:dragon_bone", "block_factorys_bosses:dragon_skull"
+		"block_factorys_bosses:dragon_bone", "block_factorys_bosses:dragon_skull",
+		// Paladins mod — diamond-tier weapons, shield, crusader/prior armor, diamond spell items
+		"paladins:diamond_claymore", "paladins:diamond_great_hammer", "paladins:diamond_mace",
+		"paladins:diamond_kite_shield",
+		"paladins:crusader_armor_head", "paladins:crusader_armor_chest",
+		"paladins:crusader_armor_legs", "paladins:crusader_armor_feet",
+		"paladins:prior_robe_head", "paladins:prior_robe_chest",
+		"paladins:prior_robe_legs", "paladins:prior_robe_feet",
+		"paladins:diamond_holy_wand", "paladins:diamond_holy_staff"
 	]);
 	gateRecipes("besttechrpg/diamond", "tier_diamond", [
 		["minecraft:crafting", "endrem:rogue_eye"],
@@ -386,7 +416,17 @@
 		["minecraft:crafting", "aquaculture:neptunium_bow"],
 		// ATM nether-source bookshelves
 		["minecraft:crafting", "allthemodium:demonic_bookshelf"],
-		["minecraft:crafting", "allthemodium:soul_bookshelf"]
+		["minecraft:crafting", "allthemodium:soul_bookshelf"],
+		// Paladins mod — diamond-tier
+		["minecraft:crafting", "paladins:diamond_claymore"],
+		["minecraft:crafting", "paladins:diamond_great_hammer"],
+		["minecraft:crafting", "paladins:diamond_mace"],
+		["minecraft:crafting", "paladins:diamond_kite_shield"],
+		["minecraft:crafting", "paladins:crusader_armor_head"], ["minecraft:crafting", "paladins:crusader_armor_chest"],
+		["minecraft:crafting", "paladins:crusader_armor_legs"], ["minecraft:crafting", "paladins:crusader_armor_feet"],
+		["minecraft:crafting", "paladins:prior_robe_head"], ["minecraft:crafting", "paladins:prior_robe_chest"],
+		["minecraft:crafting", "paladins:prior_robe_legs"], ["minecraft:crafting", "paladins:prior_robe_feet"],
+		["minecraft:crafting", "paladins:diamond_holy_wand"], ["minecraft:crafting", "paladins:diamond_holy_staff"]
 	]);
 
 	// ---------- tier_netherite ----------
@@ -471,7 +511,15 @@
 		// BlockFactory underworld_knight (knight_sword) — moved from diamond
 		"block_factorys_bosses:knight_sword",
 		// BlockFactory kraken (deep-ocean naval boss + crafted trident)
-		"block_factorys_bosses:kraken_tooth", "block_factorys_bosses:kraken_trident"
+		"block_factorys_bosses:kraken_tooth", "block_factorys_bosses:kraken_trident",
+		// Paladins mod — netherite-tier weapons, shield, netherite_crusader/netherite_prior armor, netherite spell items
+		"paladins:netherite_claymore", "paladins:netherite_great_hammer", "paladins:netherite_mace",
+		"paladins:netherite_kite_shield",
+		"paladins:netherite_crusader_armor_head", "paladins:netherite_crusader_armor_chest",
+		"paladins:netherite_crusader_armor_legs", "paladins:netherite_crusader_armor_feet",
+		"paladins:netherite_prior_robe_head", "paladins:netherite_prior_robe_chest",
+		"paladins:netherite_prior_robe_legs", "paladins:netherite_prior_robe_feet",
+		"paladins:netherite_holy_wand", "paladins:netherite_holy_staff"
 	]);
 	gateRecipes("besttechrpg/netherite", "tier_netherite", [
 		["minecraft:crafting", "endrem:nether_eye"],
@@ -495,7 +543,17 @@
 		["minecraft:crafting", "apothic_enchanting:hellshelf"],
 		["minecraft:crafting", "apothic_enchanting:seashelf"],
 		// BlockFactory kraken trident (3 kraken_tooth + 2 wooden rods)
-		["minecraft:crafting", "block_factorys_bosses:kraken_trident"]
+		["minecraft:crafting", "block_factorys_bosses:kraken_trident"],
+		// Paladins mod — netherite-tier (smithing transforms, recipe IDs end in _smithing)
+		["minecraft:smithing", "paladins:netherite_claymore_smithing"],
+		["minecraft:smithing", "paladins:netherite_great_hammer_smithing"],
+		["minecraft:smithing", "paladins:netherite_mace_smithing"],
+		["minecraft:smithing", "paladins:netherite_kite_shield_smithing"],
+		["minecraft:smithing", "paladins:netherite_crusader_armor_head_smithing"], ["minecraft:smithing", "paladins:netherite_crusader_armor_chest_smithing"],
+		["minecraft:smithing", "paladins:netherite_crusader_armor_legs_smithing"], ["minecraft:smithing", "paladins:netherite_crusader_armor_feet_smithing"],
+		["minecraft:smithing", "paladins:netherite_prior_robe_head_smithing"], ["minecraft:smithing", "paladins:netherite_prior_robe_chest_smithing"],
+		["minecraft:smithing", "paladins:netherite_prior_robe_legs_smithing"], ["minecraft:smithing", "paladins:netherite_prior_robe_feet_smithing"],
+		["minecraft:smithing", "paladins:netherite_holy_wand_smithing"], ["minecraft:smithing", "paladins:netherite_holy_staff_smithing"]
 	]);
 
 	// ---------- tier_allthemodium ----------
@@ -675,17 +733,9 @@
 	// Quark Ancient Tome upgrades enchantments past their normal max — gated here so it can't
 	// short-circuit our tiered enchant caps before the player reaches end-game.
 	gateItems("besttechrpg/unob_pearl", "tier_unobtanium_pearl", [
-		"quark:ancient_tome"
-	]);
-
-	// ---------- tier_unobtanium_ore ----------
-	// Unobtainium ore generation (verified 2026-05-02 from ATM 3.0 jar):
-	//   - Spawns in minecraft:end_highlands biome (vanilla End), replaces end_stone.
-	//   - Single block ID — no nether/overworld variants in ATM 3.0.
-	gateOres("besttechrpg/unob_ore", "tier_unobtanium_ore", [
-		["allthemodium:unobtainium_ore", "minecraft:end_stone"]
-	]);
-	gateItems("besttechrpg/unob_ore", "tier_unobtanium_ore", [
+		"quark:ancient_tome",
+		// Unobtanium items moved here from tier_unobtanium_ore so gateway-rewarded
+		// blocks/templates are usable immediately after completing the ultimate pearl.
 		"allthemodium:unobtainium_ingot",
 		"allthemodium:raw_unobtainium",
 		"allthemodium:raw_unobtainium_block",
@@ -700,14 +750,24 @@
 		"allthemodium:unobtainium_leggings",
 		"allthemodium:unobtainium_boots"
 	]);
-	gateRecipes("besttechrpg/unob_ore", "tier_unobtanium_ore", [
-		// Unobtainium gear + blocks
+	gateRecipes("besttechrpg/unob_pearl", "tier_unobtanium_pearl", [
+		["minecraft:crafting", "besttechrpg:dungeon_block"],
+		// Unobtanium gear + blocks moved here so players can craft after pearl tier.
 		["minecraft:crafting", "allthemodium:unobtainium_helmet"], ["minecraft:crafting", "allthemodium:unobtainium_chestplate"],
 		["minecraft:crafting", "allthemodium:unobtainium_leggings"], ["minecraft:crafting", "allthemodium:unobtainium_boots"],
 		["minecraft:crafting", "allthemodium:unobtainium_pickaxe"], ["minecraft:crafting", "allthemodium:unobtainium_sword"],
 		["minecraft:crafting", "allthemodium:unobtainium_axe"], ["minecraft:crafting", "allthemodium:unobtainium_shovel"],
 		["minecraft:crafting", "allthemodium:unobtainium_hoe"],
 		["minecraft:crafting", "allthemodium:unobtainium_block"], ["minecraft:crafting", "allthemodium:raw_unobtainium_block"]
+	]);
+
+	// ---------- tier_unobtanium_ore ----------
+	// Unobtainium ore generation (verified 2026-05-02 from ATM 3.0 jar):
+	//   - Spawns in minecraft:end_highlands biome (vanilla End), replaces end_stone.
+	//   - Single block ID — no nether/overworld variants in ATM 3.0.
+	// Only the ORE itself (mining) is gated here — items moved to tier_unobtanium_pearl.
+	gateOres("besttechrpg/unob_ore", "tier_unobtanium_ore", [
+		["allthemodium:unobtainium_ore", "minecraft:end_stone"]
 	]);
 
 	// ---------- tier_unobtanium_bosses ----------

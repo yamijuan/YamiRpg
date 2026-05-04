@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "besttechrpg:item/atm_crusader_armor_chest"
+  }
+}

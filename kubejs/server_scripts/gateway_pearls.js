@@ -39,4 +39,20 @@ ServerEvents.recipes(event => {
     result: { id: 'gateways:gate_pearl' },
     gateway: 'gateways:overworldian_nights'
   }).id('besttechrpg:copper_pearl');
+
+  // Endgame "ultimate" pearl — opens the besttechrpg:ultimate gateway with 5 boss waves.
+  // Required ingredients gate it at vibranium tier (vibranium_ingot only available then).
+  // Center is a copper_heart (BetterCopper) instead of nether_star.
+  event.custom({
+    type: 'gateways:gate_recipe',
+    group: 'gateways',
+    pattern: ['NVN', 'VEV', 'NVN'],
+    key: {
+      N: { item: 'minecraft:netherite_ingot' },
+      V: { item: 'allthemodium:vibranium_ingot' },
+      E: { item: 'bettercopper:copper_heart' }
+    },
+    result: { id: 'gateways:gate_pearl' },
+    gateway: 'besttechrpg:ultimate'
+  }).id('besttechrpg:ultimate_pearl');
 });

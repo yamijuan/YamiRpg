@@ -1,10 +1,9 @@
 {
   "replace": true,
   "values": [
-    "undergarden:depths",
-    "undergarden:infected_depths",
-    "undergarden:barren_abyss",
-    "undergarden:ancient_sea",
-    "undergarden:dead_sea"
+    "allthemodium:the_other",
+    "allthemodium:desert",
+    "allthemodium:desert_hills",
+    "allthemodium:soul_sand_valley"
   ]
 }

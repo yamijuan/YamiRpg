@@ -3,6 +3,7 @@ maxPlayCont = 8
 spatial = true
 sampleRate = 44100
 useYoutubeDownloader = true
+imgurClientID = "9a0189f3c8b74b9"
 relayServerURL = "https://raw.githubusercontent.com/TeamFelnull/IamMusicPlayer/master/relay_server.json"
 lavaPlayerNativesURL = "https://raw.githubusercontent.com/Mod-Sauce/test_lavaplayer_IMP/refs/heads/main/lavaplayer/natives_link.json"
 hashBaseUrl = "https://raw.githubusercontent.com/Mod-Sauce/test_lavaplayer_IMP/refs/heads/main/lavaplayer"
@@ -17,13 +18,21 @@ dropItemRing = true
 soundPhysicsRemasteredIntegration = true
 touhouLittleMaidIntegration = true
 patchouliIntegration = true
+cctIntegration = true
 showMusicLines = false
 showSpeakerRange = false
 configVersion = "1"
-enableNetease = true
-withTransName = true
-neteaseCookie = ""
 enableMusicInfoHUD = true
 hudX = 10
 hudY = 10
 createIntegration = true
+sableIntegration = true
+
+[netMusicConfig]
+enableNetease = true
+withTransName = true
+neteaseCookie = ""
+
+[bilibiliConfig]
+enableBilibili = true
+bilibiliCookie = ""

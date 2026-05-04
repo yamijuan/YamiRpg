@@ -1,0 +1,16 @@
+{
+  "parent": "paladins:item/base/metal_kite_shield_b_template",
+  "textures": {
+    "0": "paladins:item/netherite_kite_shield",
+    "particle": "paladins:item/netherite_kite_shield"
+  },
+  "overrides": [
+    { "predicate": { "blocking": 1 }, "model": "paladins:item/netherite_kite_shield_blocking" },
+    { "predicate": { "custom_model_data": 1 }, "model": "besttechrpg:item/atm_kite_shield" },
+    { "predicate": { "custom_model_data": 1, "blocking": 1 }, "model": "besttechrpg:item/atm_kite_shield_blocking" },
+    { "predicate": { "custom_model_data": 2 }, "model": "besttechrpg:item/vibranium_kite_shield" },
+    { "predicate": { "custom_model_data": 2, "blocking": 1 }, "model": "besttechrpg:item/vibranium_kite_shield_blocking" },
+    { "predicate": { "custom_model_data": 3 }, "model": "besttechrpg:item/unobtanium_kite_shield" },
+    { "predicate": { "custom_model_data": 3, "blocking": 1 }, "model": "besttechrpg:item/unobtanium_kite_shield_blocking" }
+  ]
+}

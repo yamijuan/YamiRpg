@@ -1,0 +1,11 @@
+{
+  "parent": "paladins:item/base/staff_24",
+  "textures": {
+    "layer0": "paladins:item/netherite_holy_staff"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "besttechrpg:item/atm_holy_staff" },
+    { "predicate": { "custom_model_data": 2 }, "model": "besttechrpg:item/vibranium_holy_staff" },
+    { "predicate": { "custom_model_data": 3 }, "model": "besttechrpg:item/unobtanium_holy_staff" }
+  ]
+}

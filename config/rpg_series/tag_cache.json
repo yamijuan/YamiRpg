@@ -1,0 +1,119 @@
+{
+  "cache": {
+    "rpg_series:loot_tier/tier_1_accessories": [],
+    "rpg_series:archetype/healing_weapon": [
+      "paladins:holy_staff",
+      "paladins:diamond_holy_staff",
+      "paladins:netherite_holy_staff",
+      "paladins:acolyte_wand",
+      "paladins:holy_wand",
+      "paladins:diamond_holy_wand",
+      "paladins:netherite_holy_wand"
+    ],
+    "rpg_series:loot_tier/tier_4_armors": [],
+    "rpg_series:loot_tier/tier_5_armors": [],
+    "rpg_series:loot_tier/tier_3_armors": [
+      "paladins:netherite_crusader_armor_head",
+      "paladins:netherite_crusader_armor_chest",
+      "paladins:netherite_crusader_armor_legs",
+      "paladins:netherite_crusader_armor_feet",
+      "paladins:netherite_prior_robe_head",
+      "paladins:netherite_prior_robe_chest",
+      "paladins:netherite_prior_robe_legs",
+      "paladins:netherite_prior_robe_feet"
+    ],
+    "rpg_series:loot_tier/tier_0_accessories": [],
+    "rpg_series:loot_tier/tier_1_armors": [
+      "paladins:paladin_armor_head",
+      "paladins:paladin_armor_chest",
+      "paladins:paladin_armor_legs",
+      "paladins:paladin_armor_feet",
+      "paladins:priest_robe_head",
+      "paladins:priest_robe_chest",
+      "paladins:priest_robe_legs",
+      "paladins:priest_robe_feet"
+    ],
+    "rpg_series:loot_tier/tier_1_weapons": [
+      "paladins:iron_claymore",
+      "paladins:iron_great_hammer",
+      "paladins:iron_mace",
+      "paladins:holy_wand",
+      "paladins:holy_staff",
+      "paladins:iron_kite_shield"
+    ],
+    "rpg_series:archetype/ranged_damage_weapon": [],
+    "rpg_series:loot_tier/tier_2_armors": [
+      "paladins:crusader_armor_head",
+      "paladins:crusader_armor_chest",
+      "paladins:crusader_armor_legs",
+      "paladins:crusader_armor_feet",
+      "paladins:prior_robe_head",
+      "paladins:prior_robe_chest",
+      "paladins:prior_robe_legs",
+      "paladins:prior_robe_feet"
+    ],
+    "rpg_series:loot_tier/tier_0_weapons": [
+      "paladins:stone_claymore",
+      "paladins:wooden_great_hammer",
+      "paladins:stone_great_hammer",
+      "paladins:acolyte_wand"
+    ],
+    "rpg_series:archetype/defense_weapon": [
+      "paladins:iron_kite_shield",
+      "paladins:golden_kite_shield",
+      "paladins:diamond_kite_shield",
+      "paladins:netherite_kite_shield"
+    ],
+    "rpg_series:loot_tier/tier_2_accessories": [],
+    "rpg_series:loot_tier/tier_4_accessories": [],
+    "rpg_series:loot_tier/tier_3_accessories": [],
+    "rpg_series:archetype/melee_damage_weapon": [
+      "paladins:stone_claymore",
+      "paladins:iron_claymore",
+      "paladins:golden_claymore",
+      "paladins:diamond_claymore",
+      "paladins:netherite_claymore",
+      "paladins:iron_mace",
+      "paladins:golden_mace",
+      "paladins:diamond_mace",
+      "paladins:netherite_mace",
+      "paladins:wooden_great_hammer",
+      "paladins:stone_great_hammer",
+      "paladins:iron_great_hammer",
+      "paladins:golden_great_hammer",
+      "paladins:diamond_great_hammer",
+      "paladins:netherite_great_hammer"
+    ],
+    "rpg_series:archetype/magic_damage_weapon": [],
+    "rpg_series:loot_theme/aether": [],
+    "rpg_series:loot_theme/dragon": [],
+    "rpg_series:loot_tier/tier_1_relics": [],
+    "rpg_series:loot_tier/tier_2_weapons": [
+      "paladins:diamond_claymore",
+      "paladins:diamond_great_hammer",
+      "paladins:diamond_mace",
+      "paladins:diamond_holy_wand",
+      "paladins:diamond_holy_staff",
+      "paladins:diamond_kite_shield"
+    ],
+    "rpg_series:loot_tier/tier_3_weapons": [
+      "paladins:netherite_claymore",
+      "paladins:netherite_great_hammer",
+      "paladins:netherite_mace",
+      "paladins:netherite_holy_wand",
+      "paladins:netherite_holy_staff",
+      "paladins:netherite_kite_shield"
+    ],
+    "rpg_series:loot_tier/tier_4_weapons": [],
+    "rpg_series:loot_theme/golden_weapon": [
+      "paladins:golden_claymore",
+      "paladins:golden_great_hammer",
+      "paladins:golden_mace",
+      "paladins:golden_kite_shield"
+    ],
+    "rpg_series:loot_tier/tier_3_relics": [],
+    "rpg_series:loot_tier/tier_5_weapons": [],
+    "rpg_series:loot_tier/tier_2_relics": [],
+    "rpg_series:loot_tier/tier_4_relics": []
+  }
+}

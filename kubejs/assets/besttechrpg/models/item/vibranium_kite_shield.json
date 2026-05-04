@@ -1,0 +1,7 @@
+{
+  "parent": "paladins:item/base/metal_kite_shield_b_template",
+  "textures": {
+    "0": "besttechrpg:item/vibranium_kite_shield",
+    "particle": "besttechrpg:item/vibranium_kite_shield"
+  }
+}

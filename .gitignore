@@ -10,6 +10,7 @@ Archive.zip
 
 # Upstream repo cloned for patching
 AStages/
+GatewaysToEternity/
 
 # CurseForge / launcher metadata
 .curseclient

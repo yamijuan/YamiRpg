@@ -1,0 +1,11 @@
+{
+  "parent": "paladins:item/base/mace",
+  "textures": {
+    "1": "paladins:item/netherite_mace"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "besttechrpg:item/atm_mace" },
+    { "predicate": { "custom_model_data": 2 }, "model": "besttechrpg:item/vibranium_mace" },
+    { "predicate": { "custom_model_data": 3 }, "model": "besttechrpg:item/unobtanium_mace" }
+  ]
+}

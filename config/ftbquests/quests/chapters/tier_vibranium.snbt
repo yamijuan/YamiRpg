@@ -70,11 +70,11 @@
 		{
 			dependencies: ["122F65B3E376D69E"]
 			hide_until_deps_complete: true
-			id: "6B27E8754A809D52"
+			id: "5A8F2E1B7C9D0334"
 			shape: "circle"
 			tasks: [{
-				entity: "iceandfire:fire_dragon"
-				id: "5EC7AFB4E1499C08"
+				entity: "minecraft:warden"
+				id: "5A8F2E1B7C9D0335"
 				type: "kill"
 				value: 1L
 			}]
@@ -84,13 +84,13 @@
 		{
 			dependencies: ["122F65B3E376D69E"]
 			hide_until_deps_complete: true
-			id: "53B560611795F560"
+			id: "6B9F3E2C8D0E0436"
 			shape: "circle"
 			tasks: [{
-				entity: "iceandfire:ice_dragon"
-				id: "51136BD7F281D8D4"
-				type: "kill"
-				value: 1L
+				advancement: "block_factorys_bosses:kill_kraken"
+				criterion: ""
+				id: "6B9F3E2C8D0E0437"
+				type: "advancement"
 			}]
 			x: 6.0d
 			y: -2.0d
@@ -101,10 +101,10 @@
 			id: "70A740A81B94CF03"
 			shape: "circle"
 			tasks: [{
-				entity: "mowziesmobs:sculptor"
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
 				id: "75EB8F29C70649A0"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 8.0d
 			y: -2.0d
@@ -115,8 +115,9 @@
 				"55A06AA3EED98549"
 				"3A6C00168875E544"
 				"3477D742127856C3"
-				"6B27E8754A809D52"
-				"53B560611795F560"
+				"5A8F2E1B7C9D0334"
+				"6B9F3E2C8D0E0436"
+				"70A740A81B94CF03"
 			]
 			hide_until_deps_complete: true
 			id: "37F5D25303C214C4"

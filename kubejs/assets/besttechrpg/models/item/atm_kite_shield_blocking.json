@@ -1,0 +1,7 @@
+{
+  "parent": "paladins:item/base/metal_kite_shield_b_blocking",
+  "textures": {
+    "0": "besttechrpg:item/atm_kite_shield",
+    "particle": "besttechrpg:item/atm_kite_shield"
+  }
+}

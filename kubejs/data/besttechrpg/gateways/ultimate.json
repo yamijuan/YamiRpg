@@ -1,91 +1,91 @@
 {
+	"type": "gateways:normal",
 	"size": "large",
 	"color": "#ff00aa",
-	"completion_xp": 500,
-	"spawn_range": 8.0,
-	"leash_range": 64.0,
-	"failure_delay": 100,
-	"player_damage_only": false,
-	"allow_discarding": false,
-	"allow_pvp": true,
-	"rules": [],
+	"rules": {
+		"spawn_range": 8.0,
+		"leash_range": 64.0
+	},
 	"waves": [
 		{
+			"max_wave_time": 6000,
+			"setup_time": 200,
 			"entities": [
-				{ "entity": "twilightforest:lich", "count": 1 }
+				{ "type": "gateways:standard", "entity": "minecraft:wither", "count": 1 }
 			],
 			"modifiers": [
-				{ "attribute": "minecraft:max_health", "operation": "add_multiplied_total", "value": 4.0 },
-				{ "attribute": "minecraft:attack_damage", "operation": "add_multiplied_total", "value": 2.0 },
-				{ "attribute": "minecraft:armor", "operation": "add_value", "value": 10 }
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.max_health",    "operation": "add_multiplied_total", "value": 4.0 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "value": 1.5 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.armor",         "operation": "add_value",            "value": 12.0 }
 			],
 			"rewards": [
-				{ "type": "gateways:entity_loot", "entity": "twilightforest:lich", "rolls": 5 }
-			],
-			"max_wave_time": 1200,
-			"setup_time": 200
+				{ "type": "gateways:entity_loot", "entity": "minecraft:wither", "rolls": 5 }
+			]
 		},
 		{
+			"max_wave_time": 6000,
+			"setup_time": 200,
 			"entities": [
-				{ "entity": "iceandfire:fire_dragon", "count": 1 }
+				{ "type": "gateways:standard", "entity": "cataclysm:ender_golem", "count": 3 }
 			],
 			"modifiers": [
-				{ "attribute": "minecraft:max_health", "operation": "add_multiplied_total", "value": 3.0 },
-				{ "attribute": "minecraft:attack_damage", "operation": "add_multiplied_total", "value": 1.5 },
-				{ "attribute": "minecraft:armor", "operation": "add_value", "value": 12 }
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.max_health",    "operation": "add_multiplied_total", "value": 1 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "value": 1.5 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.armor",         "operation": "add_value",            "value": 12.0 }
 			],
 			"rewards": [
-				{ "type": "gateways:entity_loot", "entity": "iceandfire:fire_dragon", "rolls": 5 }
-			],
-			"max_wave_time": 1500,
-			"setup_time": 200
+				{ "type": "gateways:entity_loot", "entity": "cataclysm:ender_golem", "rolls": 3 }
+			]
 		},
 		{
+			"max_wave_time": 6000,
+			"setup_time": 200,
 			"entities": [
-				{ "entity": "cataclysm:ender_guardian", "count": 1 }
+				{ "type": "gateways:standard", "entity": "cataclysm:ender_guardian", "count": 1 }
 			],
 			"modifiers": [
-				{ "attribute": "minecraft:max_health", "operation": "add_multiplied_total", "value": 2.5 },
-				{ "attribute": "minecraft:attack_damage", "operation": "add_multiplied_total", "value": 1.2 },
-				{ "attribute": "minecraft:armor", "operation": "add_value", "value": 8 }
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.max_health",    "operation": "add_multiplied_total", "value": 2 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "value": 1.5 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.armor", "operation": "add_multiplied_total", "value": 10 }
 			],
 			"rewards": [
 				{ "type": "gateways:entity_loot", "entity": "cataclysm:ender_guardian", "rolls": 5 }
-			],
-			"max_wave_time": 1800,
-			"setup_time": 200
+			]
 		},
 		{
+			"max_wave_time": 6000,
+			"setup_time": 200,
 			"entities": [
-				{ "entity": "cataclysm:maledictus", "count": 1 }
+				{ "type": "gateways:standard", "entity": "minecraft:warden", "count": 2 }
+			],
+			"rewards": [
+				{ "type": "gateways:entity_loot", "entity": "minecraft:warden", "rolls": 5 }
+			]
+		},
+		{
+			"max_wave_time": 6000,
+			"setup_time": 200,
+			"entities": [
+				{ "type": "gateways:standard", "entity": "cataclysm:maledictus", "count": 1 },
+				{ "type": "gateways:standard", "entity": "cataclysm:scylla", "count": 1 }
 			],
 			"modifiers": [
-				{ "attribute": "minecraft:max_health", "operation": "add_multiplied_total", "value": 1.5 },
-				{ "attribute": "minecraft:attack_damage", "operation": "add_multiplied_total", "value": 1.0 },
-				{ "attribute": "minecraft:armor", "operation": "add_value", "value": 5 }
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.max_health",    "operation": "add_multiplied_total", "value": 1.5 },
+				{ "type": "gateways:attribute", "attribute": "minecraft:generic.armor",    "operation": "add_multiplied_total", "value": 6 }
 			],
 			"rewards": [
-				{ "type": "gateways:entity_loot", "entity": "cataclysm:maledictus", "rolls": 5 }
-			],
-			"max_wave_time": 1800,
-			"setup_time": 200
-		},
-		{
-			"entities": [
-				{ "entity": "cataclysm:netherite_monstrosity", "count": 1 }
-			],
-			"modifiers": [],
-			"rewards": [
-				{ "type": "gateways:entity_loot", "entity": "cataclysm:netherite_monstrosity", "rolls": 8 },
-				{ "type": "gateways:stack", "stack": { "id": "allthemodium:unobtainium_ore", "count": 3 } },
+				{ "type": "gateways:entity_loot", "entity": "cataclysm:maledictus", "rolls": 3 },
+				{ "type": "gateways:entity_loot", "entity": "cataclysm:scylla", "rolls": 3 },
+				{ "type": "gateways:command", "command": "loot give @p loot besttechrpg:unobtanium_block_reward", "desc": "Block of Unobtanium (3-5)" },
 				{ "type": "gateways:command", "command": "advancement grant @p only besttechrpg:complete_ultimate_gateway", "desc": "" }
-			],
-			"max_wave_time": 2400,
-			"setup_time": 200
+			]
 		}
 	],
-	"failure_rewards": [],
-	"completion_rewards": [
+	"rewards": [
+		{ "type": "gateways:command", "command": "loot give @p loot besttechrpg:unobtanium_template_reward", "desc": "Unobtanium Upgrade Smithing Template (1-2)" },
 		{ "type": "gateways:command", "command": "title @p title {\"text\":\"Ultimate Gateway Complete\",\"color\":\"gold\"}", "desc": "" }
+	],
+	"failures": [
+		{ "type": "gateways:command", "command": "execute at @a run function besttechrpg:lightning_storm", "desc": "20 lightning bolts strike each player" }
 	]
 }

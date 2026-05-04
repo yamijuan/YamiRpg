@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "paladins:item/netherite_crusader_armor_legs"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "besttechrpg:item/atm_crusader_armor_legs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "besttechrpg:item/vibranium_crusader_armor_legs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "besttechrpg:item/unobtanium_crusader_armor_legs"
+    }
+  ]
+}
