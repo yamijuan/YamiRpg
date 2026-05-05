@@ -49,8 +49,12 @@
 		// spawns. Avoids the "structure-placed boss generates empty during low-tier
 		// chunk-gen and never respawns" problem — the restriction is mob-bound, so it
 		// also follows the boss if it leaves the structure.
+		// Note: MOB_SPAWNING attribute defaults to false (= disabled) in AStages,
+		// so we MUST explicitly setEnableMobSpawning(true) here. Without this call,
+		// gated mobs never spawn at all (e.g. dragon roosts generate empty).
 		mobs.forEach((m, i) => {
 			AStages.addRestrictionForMob(`${prefix}/mob_${i}`, stage, m)
+				.setEnableMobSpawning(true)
 				.setCanBeAttacked(false)
 				.setCanBeRightClicked(false);
 		});
